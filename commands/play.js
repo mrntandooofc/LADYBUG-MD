@@ -21,7 +21,7 @@ module.exports = {
             const link = search.all[0].url;
 
             // Generate the API URL
-            const apiUrl = `https://apis-keith.vercel.app/download/dlmp3?url=${link}`;
+            const apiUrl = `https://api-eliteproempire.vercel.app/api/youtube?url=${link}`;
 
             // Fetch the audio data from the API
             const response = await fetch(apiUrl);
