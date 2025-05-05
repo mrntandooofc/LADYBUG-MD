@@ -62,11 +62,11 @@ async function blurCommand(sock, chatId, message, quotedMessage) {
             image: blurredImage,
             caption: '*[ ✔ ] Image Blurred Successfully*',
             contextInfo: {
-                forwardingScore: 999,
+                forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '',
-                    newsletterName: 'LADYBUG-MD',
+                    newsletterJid: '120363401903613460@newsletter',
+                    newsletterName: '𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳',
                     serverMessageId: -1
                 }
             }

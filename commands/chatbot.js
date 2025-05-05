@@ -63,8 +63,8 @@ async function handleChatbotResponse(sock, chatId, message, userMessage, senderI
         console.log('Bot Number:', botNumber);
 
         // Check for mentions and replies
-        let isBotMentioned = false;
-        let isReplyToBot = false;
+        let isBotMentioned = true;
+        let isReplyToBot = true;
 
         // Check if message is a reply and contains bot mention
         if (message.message?.extendedTextMessage) {

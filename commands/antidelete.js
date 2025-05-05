@@ -34,10 +34,7 @@ function saveAntideleteConfig(config) {
 
 // Command Handler
 async function handleAntideleteCommand(sock, chatId, message, match) {
-    const ownerNumber = sock.user.id.split(':')[0];
-    const senderNumber = (message.key.participant || message.key.remoteJid)?.split('@')[0];
-
-    if (senderNumber !== ownerNumber) {
+    if (!message.key.fromMe) {
         return sock.sendMessage(chatId, { text: '*Only the bot owner can use this command.*' });
     }
 
