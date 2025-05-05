@@ -56,7 +56,7 @@ let phoneNumber = "263771629199"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
 global.botname = "𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳"
-global.themeemoji = "ᴹʳ ᴺᵗᵃⁿᵈᵒ ᵒᶠᶜ"
+global.themeemoji = "•"
 
 const settings = require('./settings')
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -123,10 +123,10 @@ async function startXeonBotInc() {
                     await XeonBotInc.sendMessage(mek.key.remoteJid, { 
                         text: '❌ An error occurred while processing your message.',
                         contextInfo: {
-                            forwardingScore: 999,
+                            forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '',
+                                newsletterJid: '120363401903613460@newsletter',
                                 newsletterName: '𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳',
                                 serverMessageId: -1
                             }
@@ -185,7 +185,7 @@ async function startXeonBotInc() {
         if (!!global.phoneNumber) {
             phoneNumber = global.phoneNumber
         } else {
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +263771629199 : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +263714138336 : `)))
         }
 
         phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
@@ -209,12 +209,12 @@ async function startXeonBotInc() {
             const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
             await XeonBotInc.sendMessage(botNumber, { 
                 text: `🤖 Bot Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!
-                \n Give a Star ⭐ to our bot:\n https://github.com/mrntandooofc/LADYBUG-MD-V2\n ✅Make sure to join below channel`,
+                \n✅Make sure to join below channel`,
                 contextInfo: {
-                    forwardingScore: 999,
+                    forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '1er',
+                        newsletterJid: '120363401903613460@newsletter',
                         newsletterName: '𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳',
                         serverMessageId: -1
                     }
@@ -224,10 +224,10 @@ async function startXeonBotInc() {
             await delay(1999)
             console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || '𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: ᴹʳ ᴺᵗᵃⁿᵈᵒ ᵒᶠᶜ`))
+            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: 𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: mrntandooofc`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: ᴹʳ ᴺᵗᵃⁿᵈᵒ ᵒᶠᶜ`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: MR Ntando`))
             console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`))
         }
         if (
