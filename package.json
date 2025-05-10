@@ -1,12 +1,12 @@
 {
-  "name": "knightbot",
-  "version": "1.0.0",
+  "name": "ladybug",
+  "version": "2.0.0",
   "description": "WhatsApp Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docker:build": "docker build -t knightbot .",
+    "docker:build": "docker build -t ladybug .",
     "docker:run": "docker run -e SESSION_ID=$SESSION_ID mrntandoofc"
   },
   "keywords": [
