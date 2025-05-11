@@ -87,6 +87,7 @@ const playCommand = require('./commands/play');
 const tiktokCommand = require('./commands/tiktok');
 const songCommand = require('./commands/song');
 const aiCommand = require('./commands/ai');
+const videoCommand = require('./commands/video');
 
 
 // Global settings
@@ -723,6 +724,9 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage.startsWith('.gpt') || userMessage.startsWith('.gemini'):
                 await aiCommand(sock, chatId, message);
                 break;
+            case userMessage.startsWith('.video'):
+               await autobioCommand(sock, chatId, message);
+               break;
             default:
                 if (isGroup) {
                     // Handle non-command group messages
