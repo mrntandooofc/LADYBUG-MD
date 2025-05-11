@@ -36,4 +36,4 @@ async function videoCommand(sock, chatId, message) {
   }, { quoted: message });
  } catch (error) {
   console.error('Error in video command:', error);
-  await sock.sendMessage(chatId, { text: "Kupak
+  await sock.sendMessage(chatId, { text: "video
