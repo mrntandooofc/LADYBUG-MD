@@ -84,6 +84,8 @@ const setProfilePicture = require('./commands/setpp');
 const instagramCommand = require('./commands/instagram');
 const facebookCommand = require('./commands/facebook');
 const playCommand = require('./commands/play');
+const play2Command = require('./commands/play2');
+const play3Command = require('./commands/play3');
 const tiktokCommand = require('./commands/tiktok');
 const songCommand = require('./commands/song');
 const aiCommand = require('./commands/ai');
@@ -281,7 +283,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage.startsWith('.unban'):
                 await unbanCommand(sock, chatId, message);
                 break;
-            case userMessage === '.help' || userMessage === '.menu' || userMessage === '.bot' || userMessage === '.list':
+            case userMessage === '.ntando' || userMessage === '.ladybug' || userMessage === '.menu' || userMessage === '.bot':
                 await helpCommand(sock, chatId, global.channelLink);
                 break;
             case userMessage === '.sticker' || userMessage === '.s':
@@ -531,11 +533,11 @@ async function handleMessages(sock, messageUpdate, printLog) {
                     await sock.sendMessage(chatId, { text: 'This command can only be used in groups.', ...channelInfo });
                 }
                 break;
-            case userMessage === '.git':
-            case userMessage === '.github':
-            case userMessage === '.sc':
-            case userMessage === '.script':
-            case userMessage === '.repo':
+            case userMessage === '.mrntando':
+            case userMessage === '.mrntandoofc':
+            case userMessage === '.ntando':
+            case userMessage === '.ofc':
+            case userMessage === '.ntando':
                 await githubCommand(sock, chatId);
                 break;
             case userMessage.startsWith('.antibadword'):
@@ -716,6 +718,12 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 break;
             case userMessage.startsWith('.play') || userMessage.startsWith('.mp3') || userMessage.startsWith('.ytmp3') || userMessage.startsWith('.yts'):
                 await songCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.play2'):
+                await play2Command(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.play3'):
+                await play3Command(sock, chatId, message);
                 break;
             case userMessage.startsWith('.tiktok') || userMessage.startsWith('.tt'):
                 await tiktokCommand(sock, chatId, message);
