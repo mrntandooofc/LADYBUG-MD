@@ -2,7 +2,7 @@ async function githubCommand(sock, chatId) {
     const repoInfo = `*🤖 𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳*
 
 *📂 GitHub Repository:*
-https://github.com/mrntandooofc/LADYBUG-MD-V2
+https://github.com/mrntandooofc/LADYBUG-MD
 
 *📢 Official Channel:*
 https://whatsapp.com/channel/0029Vb4yAGGIHphBnp4jaj2A
