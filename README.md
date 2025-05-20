@@ -5,7 +5,7 @@
 
 
 
-# 𝕷𝕬𝕯𝖄𝕭𝖀𝕲 𝕸𝕯 V2
+# LADYBUG MD BOT
 
 Just like Ladybug's mask hides her identity, my heart hides my true feelings for you, Cat Noir - you're the purr-fect hero of my heart.
 
