@@ -246,8 +246,8 @@ async function setAntiBadword(groupId, type, action) {
 async function getAntiBadword(groupId, type) {
     try {
         const data = loadUserGroupData();
-        console.log('Loading antibadword config for group:', groupId);
-        console.log('Current data:', data.antibadword);
+        //console.log('Loading antibadword config for group:', groupId);
+        //console.log('Current data:', data.antibadword);
         
         if (!data.antibadword || !data.antibadword[groupId]) {
             console.log('No antibadword config found');
@@ -255,7 +255,7 @@ async function getAntiBadword(groupId, type) {
         }
         
         const config = data.antibadword[groupId];
-        console.log('Found config:', config);
+       // console.log('Found config:', config);
         
         return type === 'on' ? config : null;
     } catch (error) {
