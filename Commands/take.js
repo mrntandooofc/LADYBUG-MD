@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 const { downloadMediaMessage } = require('@whiskeysockets/baileys');
-const sharp = require('sharp');
 const webp = require('node-webpmux');
 const crypto = require('crypto');
 
@@ -15,21 +14,15 @@ async function takeCommand(sock, chatId, message, args) {
         }
 
         // Get the packname from args or use default
-        const packname = args.join(' ') || '𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳';
+        const packname = args.join(' ') || 'Knight Bot';
 
         try {
-            // Create tmp directory if it doesn't exist
-            const tmpDir = path.join(__dirname, '../tmp');
-            if (!fs.existsSync(tmpDir)) {
-                fs.mkdirSync(tmpDir, { recursive: true });
-            }
-
             // Download the sticker
             const stickerBuffer = await downloadMediaMessage(
                 {
                     key: message.message.extendedTextMessage.contextInfo.stanzaId,
                     message: quotedMessage,
-                    messageType: quotedMessage.stickerMessage ? 'stickerMessage' : 'imageMessage'
+                    messageType: 'stickerMessage'
                 },
                 'buffer',
                 {},
@@ -44,15 +37,9 @@ async function takeCommand(sock, chatId, message, args) {
                 return;
             }
 
-            // Convert to WebP using sharp
-            const webpBuffer = await sharp(stickerBuffer)
-                .resize(512, 512, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
-                .webp()
-                .toBuffer();
-
             // Add metadata using webpmux
             const img = new webp.Image();
-            await img.load(webpBuffer);
+            await img.load(stickerBuffer);
 
             // Create metadata
             const json = {

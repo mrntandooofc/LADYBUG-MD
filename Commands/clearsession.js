@@ -4,7 +4,7 @@ const os = require('os');
 
 const channelInfo = {
     contextInfo: {
-        forwardingScore: 1,
+        forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363401903613460@newsletter',
@@ -59,6 +59,10 @@ async function clearSessionCommand(sock, chatId, msg) {
 
         // Delete files
         for (const file of files) {
+            if (file === 'creds.json') {
+                // Skip creds.json file
+                continue;
+            }
             try {
                 const filePath = path.join(sessionDir, file);
                 fs.unlinkSync(filePath);

@@ -1,1 +1,166 @@
-function _0x5124(_0xe14b95,_0x50205d){const _0x2b2f1d=_0x2b2f();return _0x5124=function(_0x512454,_0x56b1ac){_0x512454=_0x512454-0xda;let _0x4ec930=_0x2b2f1d[_0x512454];return _0x4ec930;},_0x5124(_0xe14b95,_0x50205d);}const _0x137cb7=_0x5124;(function(_0x1de958,_0x5707a7){const _0x3cb5f7=_0x5124,_0x3f7cd7=_0x1de958();while(!![]){try{const _0x46f1ae=parseInt(_0x3cb5f7(0xdd))/0x1*(-parseInt(_0x3cb5f7(0xe0))/0x2)+-parseInt(_0x3cb5f7(0xed))/0x3*(-parseInt(_0x3cb5f7(0xf6))/0x4)+parseInt(_0x3cb5f7(0x10a))/0x5*(-parseInt(_0x3cb5f7(0x107))/0x6)+parseInt(_0x3cb5f7(0xee))/0x7*(parseInt(_0x3cb5f7(0xe7))/0x8)+-parseInt(_0x3cb5f7(0xf0))/0x9*(-parseInt(_0x3cb5f7(0xda))/0xa)+parseInt(_0x3cb5f7(0xeb))/0xb*(parseInt(_0x3cb5f7(0xdb))/0xc)+parseInt(_0x3cb5f7(0xdf))/0xd;if(_0x46f1ae===_0x5707a7)break;else _0x3f7cd7['push'](_0x3f7cd7['shift']());}catch(_0x23068e){_0x3f7cd7['push'](_0x3f7cd7['shift']());}}}(_0x2b2f,0xbbb2c));const fs=require('fs'),path=require(_0x137cb7(0x103)),channelInfo={'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x137cb7(0xe5),'newsletterName':_0x137cb7(0xe6),'serverMessageId':-0x1}}},configPath=path[_0x137cb7(0x109)](__dirname,_0x137cb7(0x10b));!fs['existsSync'](configPath)&&fs[_0x137cb7(0xf5)](configPath,JSON['stringify']({'enabled':![]}));async function autoStatusCommand(_0x8556f5,_0x5481de,_0x1a8720,_0x3ccac0){const _0x173fdc=_0x137cb7;try{if(!_0x1a8720['key'][_0x173fdc(0xf7)]){await _0x8556f5[_0x173fdc(0x101)](_0x5481de,{'text':_0x173fdc(0xdc),...channelInfo});return;}let _0xa37a32=JSON[_0x173fdc(0xfc)](fs['readFileSync'](configPath));if(!_0x3ccac0||_0x3ccac0['length']===0x0){const _0x451e49=_0xa37a32[_0x173fdc(0xe1)]?_0x173fdc(0xe1):_0x173fdc(0xf4);await _0x8556f5['sendMessage'](_0x5481de,{'text':_0x173fdc(0xfd)+_0x451e49+_0x173fdc(0xe9),...channelInfo});return;}const _0x96b698=_0x3ccac0[0x0][_0x173fdc(0xe3)]();if(_0x96b698==='on')_0xa37a32[_0x173fdc(0xe1)]=!![],fs[_0x173fdc(0xf5)](configPath,JSON[_0x173fdc(0x106)](_0xa37a32)),await _0x8556f5[_0x173fdc(0x101)](_0x5481de,{'text':_0x173fdc(0xff),...channelInfo});else _0x96b698===_0x173fdc(0xe8)?(_0xa37a32['enabled']=![],fs[_0x173fdc(0xf5)](configPath,JSON[_0x173fdc(0x106)](_0xa37a32)),await _0x8556f5[_0x173fdc(0x101)](_0x5481de,{'text':_0x173fdc(0x108),...channelInfo})):await _0x8556f5[_0x173fdc(0x101)](_0x5481de,{'text':'❌\x20Invalid\x20command!\x20Use:\x0a.autostatus\x20on\x20-\x20Enable\x20auto\x20status\x20view\x0a.autostatus\x20off\x20-\x20Disable\x20auto\x20status\x20view',...channelInfo});}catch(_0x52f1a3){console['error'](_0x173fdc(0xf8),_0x52f1a3),await _0x8556f5[_0x173fdc(0x101)](_0x5481de,{'text':'❌\x20Error\x20occurred\x20while\x20managing\x20auto\x20status!\x0a'+_0x52f1a3[_0x173fdc(0xea)],...channelInfo});}}function isAutoStatusEnabled(){const _0x2a9e39=_0x137cb7;try{const _0x3c30ff=JSON[_0x2a9e39(0xfc)](fs['readFileSync'](configPath));return _0x3c30ff[_0x2a9e39(0xe1)];}catch(_0x2efb14){return console[_0x2a9e39(0xef)](_0x2a9e39(0xec),_0x2efb14),![];}}async function handleStatusUpdate(_0x55de57,_0x1ec79b){const _0x1c223c=_0x137cb7;try{if(!isAutoStatusEnabled())return;await new Promise(_0x3a24d3=>setTimeout(_0x3a24d3,0x3e8));if(_0x1ec79b[_0x1c223c(0xf1)]&&_0x1ec79b['messages'][_0x1c223c(0x10c)]>0x0){const _0x375e40=_0x1ec79b[_0x1c223c(0xf1)][0x0];if(_0x375e40[_0x1c223c(0x104)]&&_0x375e40[_0x1c223c(0x104)]['remoteJid']==='status@broadcast'){try{await _0x55de57[_0x1c223c(0xf3)]([_0x375e40[_0x1c223c(0x104)]]);const _0x141c53=_0x375e40[_0x1c223c(0x104)][_0x1c223c(0x105)]||_0x375e40[_0x1c223c(0x104)][_0x1c223c(0x100)];}catch(_0x8b28c7){if(_0x8b28c7[_0x1c223c(0xea)]?.[_0x1c223c(0xe2)](_0x1c223c(0xfa)))console['log']('⚠️\x20Rate\x20limit\x20hit,\x20waiting\x20before\x20retrying...'),await new Promise(_0x5d3b3d=>setTimeout(_0x5d3b3d,0x7d0)),await _0x55de57[_0x1c223c(0xf3)]([_0x375e40['key']]);else throw _0x8b28c7;}return;}}if(_0x1ec79b[_0x1c223c(0x104)]&&_0x1ec79b[_0x1c223c(0x104)]['remoteJid']==='status@broadcast'){try{await _0x55de57[_0x1c223c(0xf3)]([_0x1ec79b['key']]);const _0x51ac08=_0x1ec79b[_0x1c223c(0x104)][_0x1c223c(0x105)]||_0x1ec79b[_0x1c223c(0x104)][_0x1c223c(0x100)];console[_0x1c223c(0xfe)](_0x1c223c(0xe4)+_0x51ac08[_0x1c223c(0xde)]('@')[0x0]);}catch(_0x290c00){if(_0x290c00[_0x1c223c(0xea)]?.[_0x1c223c(0xe2)](_0x1c223c(0xfa)))console[_0x1c223c(0xfe)](_0x1c223c(0xf2)),await new Promise(_0x1a8d94=>setTimeout(_0x1a8d94,0x7d0)),await _0x55de57[_0x1c223c(0xf3)]([_0x1ec79b[_0x1c223c(0x104)]]);else throw _0x290c00;}return;}if(_0x1ec79b[_0x1c223c(0x102)]&&_0x1ec79b[_0x1c223c(0x102)][_0x1c223c(0x104)]['remoteJid']===_0x1c223c(0xfb)){try{await _0x55de57['readMessages']([_0x1ec79b[_0x1c223c(0x102)][_0x1c223c(0x104)]]);const _0x37468a=_0x1ec79b[_0x1c223c(0x102)][_0x1c223c(0x104)][_0x1c223c(0x105)]||_0x1ec79b[_0x1c223c(0x102)][_0x1c223c(0x104)]['remoteJid'];console[_0x1c223c(0xfe)](_0x1c223c(0xe4)+_0x37468a[_0x1c223c(0xde)]('@')[0x0]);}catch(_0x21c43f){if(_0x21c43f[_0x1c223c(0xea)]?.[_0x1c223c(0xe2)](_0x1c223c(0xfa)))console['log'](_0x1c223c(0xf2)),await new Promise(_0x257a53=>setTimeout(_0x257a53,0x7d0)),await _0x55de57[_0x1c223c(0xf3)]([_0x1ec79b[_0x1c223c(0x102)][_0x1c223c(0x104)]]);else throw _0x21c43f;}return;}}catch(_0x2add3b){console[_0x1c223c(0xef)]('❌\x20Error\x20in\x20auto\x20status\x20view:',_0x2add3b[_0x1c223c(0xea)]);}}function _0x2b2f(){const _0x1a61c9=['1oIQXGW','split','51012lWWuum','1992804KdKacR','enabled','includes','toLowerCase','✅\x20Viewed\x20status\x20from:\x20','120363401903613460@newsletter','𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳','10216RhMzEj','off','\x0a\x0aUse:\x0a.autostatus\x20on\x20-\x20Enable\x20auto\x20status\x20view\x0a.autostatus\x20off\x20-\x20Disable\x20auto\x20status\x20view','message','12089418pSOGvQ','Error\x20checking\x20auto\x20status\x20config:','1168575Xfdkhd','5341WufknT','error','54oJeLiQ','messages','⚠️\x20Rate\x20limit\x20hit,\x20waiting\x20before\x20retrying...','readMessages','disabled','writeFileSync','4EJOPxL','fromMe','Error\x20in\x20autostatus\x20command:','exports','rate-overlimit','status@broadcast','parse','🔄\x20*Auto\x20Status\x20View*\x0a\x0aCurrent\x20status:\x20','log','✅\x20Auto\x20status\x20view\x20has\x20been\x20enabled!\x0aBot\x20will\x20now\x20automatically\x20view\x20all\x20contact\x20statuses.','remoteJid','sendMessage','reaction','path','key','participant','stringify','120RIALjv','❌\x20Auto\x20status\x20view\x20has\x20been\x20disabled!\x0aBot\x20will\x20no\x20longer\x20automatically\x20view\x20statuses.','join','214955aCvGVS','../data/autoStatus.json','length','263660HeIjxD','12DBndLV','❌\x20This\x20command\x20can\x20only\x20be\x20used\x20by\x20the\x20owner!'];_0x2b2f=function(){return _0x1a61c9;};return _0x2b2f();}module[_0x137cb7(0xf9)]={'autoStatusCommand':autoStatusCommand,'handleStatusUpdate':handleStatusUpdate};
+const fs = require('fs');
+const path = require('path');
+
+const channelInfo = {
+    contextInfo: {
+        forwardingScore: 1,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363401903613460@newsletter',
+            newsletterName: '𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳',
+            serverMessageId: -1
+        }
+    }
+};
+
+// Path to store auto status configuration
+const configPath = path.join(__dirname, '../data/autoStatus.json');
+
+// Initialize config file if it doesn't exist
+if (!fs.existsSync(configPath)) {
+    fs.writeFileSync(configPath, JSON.stringify({ enabled: false }));
+}
+
+async function autoStatusCommand(sock, chatId, msg, args) {
+    try {
+        // Check if sender is owner
+        if (!msg.key.fromMe) {
+            await sock.sendMessage(chatId, { 
+                text: '❌ This command can only be used by the owner!',
+                ...channelInfo
+            });
+            return;
+        }
+
+        // Read current config
+        let config = JSON.parse(fs.readFileSync(configPath));
+
+        // If no arguments, show current status
+        if (!args || args.length === 0) {
+            const status = config.enabled ? 'enabled' : 'disabled';
+            await sock.sendMessage(chatId, { 
+                text: `🔄 *Auto Status View*\n\nCurrent status: ${status}\n\nUse:\n.autostatus on - Enable auto status view\n.autostatus off - Disable auto status view`,
+                ...channelInfo
+            });
+            return;
+        }
+
+        // Handle on/off commands
+        const command = args[0].toLowerCase();
+        if (command === 'on') {
+            config.enabled = true;
+            fs.writeFileSync(configPath, JSON.stringify(config));
+            await sock.sendMessage(chatId, { 
+                text: '✅ Auto status view has been enabled!\nBot will now automatically view all contact statuses.',
+                ...channelInfo
+            });
+        } else if (command === 'off') {
+            config.enabled = false;
+            fs.writeFileSync(configPath, JSON.stringify(config));
+            await sock.sendMessage(chatId, { 
+                text: '❌ Auto status view has been disabled!\nBot will no longer automatically view statuses.',
+                ...channelInfo
+            });
+        } else {
+            await sock.sendMessage(chatId, { 
+                text: '❌ Invalid command! Use:\n.autostatus on - Enable auto status view\n.autostatus off - Disable auto status view',
+                ...channelInfo
+            });
+        }
+
+    } catch (error) {
+        console.error('Error in autostatus command:', error);
+        await sock.sendMessage(chatId, { 
+            text: '❌ Error occurred while managing auto status!\n' + error.message,
+            ...channelInfo
+        });
+    }
+}
+
+// Function to check if auto status is enabled
+function isAutoStatusEnabled() {
+    try {
+        const config = JSON.parse(fs.readFileSync(configPath));
+        return config.enabled;
+    } catch (error) {
+        console.error('Error checking auto status config:', error);
+        return false;
+    }
+}
+
+// Function to handle status updates
+async function handleStatusUpdate(sock, status) {
+    try {
+        if (!isAutoStatusEnabled()) {
+            return;
+        }
+
+        // Add delay to prevent rate limiting
+        await new Promise(resolve => setTimeout(resolve, 1000));
+
+        // Handle status from messages.upsert
+        if (status.messages && status.messages.length > 0) {
+            const msg = status.messages[0];
+            if (msg.key && msg.key.remoteJid === 'status@broadcast') {
+                try {
+                    await sock.readMessages([msg.key]);
+                    const sender = msg.key.participant || msg.key.remoteJid;
+                   // console.log(`✅ Status Viewed `);
+                } catch (err) {
+                    if (err.message?.includes('rate-overlimit')) {
+                        console.log('⚠️ Rate limit hit, waiting before retrying...');
+                        await new Promise(resolve => setTimeout(resolve, 2000));
+                        await sock.readMessages([msg.key]);
+                    } else {
+                        throw err;
+                    }
+                }
+                return;
+            }
+        }
+
+        // Handle direct status updates
+        if (status.key && status.key.remoteJid === 'status@broadcast') {
+            try {
+                await sock.readMessages([status.key]);
+                const sender = status.key.participant || status.key.remoteJid;
+                console.log(`✅ Viewed status from: ${sender.split('@')[0]}`);
+            } catch (err) {
+                if (err.message?.includes('rate-overlimit')) {
+                    console.log('⚠️ Rate limit hit, waiting before retrying...');
+                    await new Promise(resolve => setTimeout(resolve, 2000));
+                    await sock.readMessages([status.key]);
+                } else {
+                    throw err;
+                }
+            }
+            return;
+        }
+
+        // Handle status in reactions
+        if (status.reaction && status.reaction.key.remoteJid === 'status@broadcast') {
+            try {
+                await sock.readMessages([status.reaction.key]);
+                const sender = status.reaction.key.participant || status.reaction.key.remoteJid;
+                console.log(`✅ Viewed status from: ${sender.split('@')[0]}`);
+            } catch (err) {
+                if (err.message?.includes('rate-overlimit')) {
+                    console.log('⚠️ Rate limit hit, waiting before retrying...');
+                    await new Promise(resolve => setTimeout(resolve, 2000));
+                    await sock.readMessages([status.reaction.key]);
+                } else {
+                    throw err;
+                }
+            }
+            return;
+        }
+
+    } catch (error) {
+        console.error('❌ Error in auto status view:', error.message);
+    }
+}
+
+module.exports = {
+    autoStatusCommand,
+    handleStatusUpdate
+}; 

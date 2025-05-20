@@ -1,1 +1,154 @@
-function _0x76ab(){const _0x17771e=['image','caption','*💀\x20𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳\x20Anti\x20ViewOnce\x20💀*\x0a\x0a*Type:*\x20Video\x20📹\x0a','exports','../settings','24065NunrHK','✅\x20View\x20once\x20video\x20processed\x20successfully','../temp','viewOnce','485996WirZnr','❌\x20Failed\x20to\x20process\x20view\x20once\x20image!\x20Error:\x20','mkdirSync','2625940IsBDWq','temp_','❌\x20Error\x20in\x20viewonce\x20command:','videoMessage','846kNxJqg','1151815NpUEjC','now','from','stringify','concat','Message\x20structure:','❌\x20Please\x20reply\x20to\x20a\x20view\x20once\x20message!','message','finish','❌\x20Error\x20downloading\x20image:','video','write','*💀\x20𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳\x20Anti\x20ViewOnce\x20💀*\x0a\x0a*Type:*\x20Image\x20📸\x0a','sendMessage','3786irBcGf','*Caption:*\x20','❌\x20Failed\x20to\x20process\x20view\x20once\x20video!\x20Error:\x20','❌\x20This\x20is\x20not\x20a\x20view\x20once\x20message!\x20Please\x20reply\x20to\x20a\x20view\x20once\x20image/video.','end','.mp4','❌\x20Could\x20not\x20detect\x20view\x20once\x20message!\x20Please\x20make\x20sure\x20you\x20replied\x20to\x20a\x20view\x20once\x20image/video.','error','1096968pUqfkI','❌\x20Error\x20processing\x20video:','210gNkbuz','9VRttYO','createWriteStream','imageMessage','✅\x20View\x20once\x20image\x20processed\x20successfully','join','log','120363401903613460@newsletter','132xpuhxH','extendedTextMessage','quotedMessage','1228232xkhnoV','16fRMSLr','📸\x20Processing\x20view\x20once\x20image...','📹\x20Processing\x20view\x20once\x20video...','viewOnceMessage'];_0x76ab=function(){return _0x17771e;};return _0x76ab();}const _0x52fafe=_0x131e;(function(_0x22618a,_0x4d620c){const _0x52e11f=_0x131e,_0x4dfa3c=_0x22618a();while(!![]){try{const _0x1ff6ff=-parseInt(_0x52e11f(0x102))/0x1+parseInt(_0x52e11f(0x118))/0x2*(-parseInt(_0x52e11f(0x109))/0x3)+parseInt(_0x52e11f(0xf4))/0x4+-parseInt(_0x52e11f(0xfe))/0x5*(parseInt(_0x52e11f(0xe9))/0x6)+-parseInt(_0x52e11f(0x10a))/0x7*(-parseInt(_0x52e11f(0xf5))/0x8)+-parseInt(_0x52e11f(0xea))/0x9*(parseInt(_0x52e11f(0x105))/0xa)+-parseInt(_0x52e11f(0xf1))/0xb*(-parseInt(_0x52e11f(0xe7))/0xc);if(_0x1ff6ff===_0x4d620c)break;else _0x4dfa3c['push'](_0x4dfa3c['shift']());}catch(_0x3a6bef){_0x4dfa3c['push'](_0x4dfa3c['shift']());}}}(_0x76ab,0x44e85));const {downloadContentFromMessage}=require('@whiskeysockets/baileys'),settings=require(_0x52fafe(0xfd)),fs=require('fs'),path=require('path'),channelInfo={'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x52fafe(0xf0),'newsletterName':'𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳','serverMessageId':-0x1}}};function _0x131e(_0x5d38f3,_0x385e40){const _0x76ab5=_0x76ab();return _0x131e=function(_0x131ea3,_0x140187){_0x131ea3=_0x131ea3-0xe1;let _0x2292df=_0x76ab5[_0x131ea3];return _0x2292df;},_0x131e(_0x5d38f3,_0x385e40);}async function viewOnceCommand(_0x2e5d1e,_0x3c9737,_0x477ba1){const _0x157e31=_0x52fafe;try{const _0x179e6b=_0x477ba1[_0x157e31(0x111)]?.[_0x157e31(0xf2)]?.['contextInfo']?.[_0x157e31(0xf3)]||_0x477ba1[_0x157e31(0x111)]?.[_0x157e31(0xec)]||_0x477ba1[_0x157e31(0x111)]?.['videoMessage'];if(!_0x179e6b){await _0x2e5d1e[_0x157e31(0x117)](_0x3c9737,{'text':_0x157e31(0x110),...channelInfo});return;}const _0x5cf3df=_0x179e6b['imageMessage']?.['viewOnce']===!![]||_0x179e6b[_0x157e31(0xf8)]?.['message']?.[_0x157e31(0xec)]||_0x477ba1[_0x157e31(0x111)]?.[_0x157e31(0xf8)]?.[_0x157e31(0x111)]?.['imageMessage'],_0x50be08=_0x179e6b[_0x157e31(0x108)]?.[_0x157e31(0x101)]===!![]||_0x179e6b['viewOnceMessage']?.[_0x157e31(0x111)]?.['videoMessage']||_0x477ba1['message']?.[_0x157e31(0xf8)]?.['message']?.['videoMessage'];let _0x4d5d15;if(_0x5cf3df)_0x4d5d15=_0x179e6b[_0x157e31(0xec)]||_0x179e6b[_0x157e31(0xf8)]?.['message']?.[_0x157e31(0xec)]||_0x477ba1['message']?.[_0x157e31(0xf8)]?.['message']?.[_0x157e31(0xec)];else _0x50be08&&(_0x4d5d15=_0x179e6b[_0x157e31(0x108)]||_0x179e6b[_0x157e31(0xf8)]?.[_0x157e31(0x111)]?.['videoMessage']||_0x477ba1[_0x157e31(0x111)]?.['viewOnceMessage']?.['message']?.[_0x157e31(0x108)]);if(!_0x4d5d15){console[_0x157e31(0xef)](_0x157e31(0x10f),JSON[_0x157e31(0x10d)](_0x477ba1,null,0x2)),await _0x2e5d1e[_0x157e31(0x117)](_0x3c9737,{'text':_0x157e31(0xe5),...channelInfo});return;}if(_0x5cf3df)try{console[_0x157e31(0xef)](_0x157e31(0xf6));const _0x53f63c=await downloadContentFromMessage(_0x4d5d15,_0x157e31(0xf9));let _0x5698de=Buffer[_0x157e31(0x10c)]([]);for await(const _0xd9e198 of _0x53f63c){_0x5698de=Buffer[_0x157e31(0x10e)]([_0x5698de,_0xd9e198]);}const _0x5ebe6e=_0x4d5d15[_0x157e31(0xfa)]||'';await _0x2e5d1e[_0x157e31(0x117)](_0x3c9737,{'image':_0x5698de,'caption':_0x157e31(0x116)+(_0x5ebe6e?_0x157e31(0x119)+_0x5ebe6e:''),...channelInfo}),console[_0x157e31(0xef)](_0x157e31(0xed));return;}catch(_0x2b87d3){console['error'](_0x157e31(0x113),_0x2b87d3),await _0x2e5d1e[_0x157e31(0x117)](_0x3c9737,{'text':_0x157e31(0x103)+_0x2b87d3['message'],...channelInfo});return;}if(_0x50be08)try{console[_0x157e31(0xef)](_0x157e31(0xf7));const _0x3e968d=path[_0x157e31(0xee)](__dirname,_0x157e31(0x100));!fs['existsSync'](_0x3e968d)&&fs[_0x157e31(0x104)](_0x3e968d);const _0x5e6219=path[_0x157e31(0xee)](_0x3e968d,_0x157e31(0x106)+Date[_0x157e31(0x10b)]()+_0x157e31(0xe4)),_0x22392d=await downloadContentFromMessage(_0x4d5d15,_0x157e31(0x114)),_0x539d44=fs[_0x157e31(0xeb)](_0x5e6219);for await(const _0x5ed97e of _0x22392d){_0x539d44[_0x157e31(0x115)](_0x5ed97e);}_0x539d44[_0x157e31(0xe3)](),await new Promise(_0x44190d=>_0x539d44['on'](_0x157e31(0x112),_0x44190d));const _0x1ad7fd=_0x4d5d15['caption']||'';await _0x2e5d1e[_0x157e31(0x117)](_0x3c9737,{'video':fs['readFileSync'](_0x5e6219),'caption':_0x157e31(0xfb)+(_0x1ad7fd?'*Caption:*\x20'+_0x1ad7fd:''),...channelInfo}),fs['unlinkSync'](_0x5e6219),console[_0x157e31(0xef)](_0x157e31(0xff));return;}catch(_0x21dc83){console[_0x157e31(0xe6)](_0x157e31(0xe8),_0x21dc83),await _0x2e5d1e[_0x157e31(0x117)](_0x3c9737,{'text':_0x157e31(0xe1)+_0x21dc83[_0x157e31(0x111)],...channelInfo});return;}await _0x2e5d1e[_0x157e31(0x117)](_0x3c9737,{'text':_0x157e31(0xe2),...channelInfo});}catch(_0xbf260c){console['error'](_0x157e31(0x107),_0xbf260c),await _0x2e5d1e['sendMessage'](_0x3c9737,{'text':'❌\x20Error\x20processing\x20view\x20once\x20message!\x20Error:\x20'+_0xbf260c[_0x157e31(0x111)],...channelInfo});}}module[_0x52fafe(0xfc)]=viewOnceCommand;
+const { downloadContentFromMessage } = require('@whiskeysockets/baileys');
+const settings = require('../settings');
+const fs = require('fs');
+const path = require('path');
+
+// Channel info for message context
+const channelInfo = {
+    contextInfo: {
+        forwardingScore: 1,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+            newsletterJid: '120363401903613460@newsletter',
+            newsletterName: '𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳',
+            serverMessageId: -1
+        }
+    }
+};
+
+async function viewOnceCommand(sock, chatId, message) {
+    try {
+        // Get quoted message with better error handling
+        const quotedMessage = message.message?.extendedTextMessage?.contextInfo?.quotedMessage ||
+                            message.message?.imageMessage ||
+                            message.message?.videoMessage;
+
+        if (!quotedMessage) {
+            await sock.sendMessage(chatId, { 
+                text: '❌ Please reply to a view once message!',
+                ...channelInfo
+            });
+            return;
+        }
+
+        // Enhanced view once detection
+        const isViewOnceImage = quotedMessage.imageMessage?.viewOnce === true || 
+                              quotedMessage.viewOnceMessage?.message?.imageMessage ||
+                              message.message?.viewOnceMessage?.message?.imageMessage;
+                              
+        const isViewOnceVideo = quotedMessage.videoMessage?.viewOnce === true || 
+                              quotedMessage.viewOnceMessage?.message?.videoMessage ||
+                              message.message?.viewOnceMessage?.message?.videoMessage;
+
+        // Get the actual message content
+        let mediaMessage;
+        if (isViewOnceImage) {
+            mediaMessage = quotedMessage.imageMessage || 
+                         quotedMessage.viewOnceMessage?.message?.imageMessage ||
+                         message.message?.viewOnceMessage?.message?.imageMessage;
+        } else if (isViewOnceVideo) {
+            mediaMessage = quotedMessage.videoMessage || 
+                         quotedMessage.viewOnceMessage?.message?.videoMessage ||
+                         message.message?.viewOnceMessage?.message?.videoMessage;
+        }
+
+        if (!mediaMessage) {
+            console.log('Message structure:', JSON.stringify(message, null, 2));
+            await sock.sendMessage(chatId, { 
+                text: '❌ Could not detect view once message! Please make sure you replied to a view once image/video.',
+                ...channelInfo
+            });
+            return;
+        }
+
+        // Handle view once image
+        if (isViewOnceImage) {
+            try {
+                console.log('📸 Processing view once image...');
+                const stream = await downloadContentFromMessage(mediaMessage, 'image');
+                let buffer = Buffer.from([]);
+                for await (const chunk of stream) {
+                    buffer = Buffer.concat([buffer, chunk]);
+                }
+
+                const caption = mediaMessage.caption || '';
+                
+                await sock.sendMessage(chatId, { 
+                    image: buffer,
+                    caption: `*💀 KnightBot Anti ViewOnce 💀*\n\n*Type:* Image 📸\n${caption ? `*Caption:* ${caption}` : ''}`,
+                    ...channelInfo
+                });
+                console.log('✅ View once image processed successfully');
+                return;
+            } catch (err) {
+                console.error('❌ Error downloading image:', err);
+                await sock.sendMessage(chatId, { 
+                    text: '❌ Failed to process view once image! Error: ' + err.message,
+                    ...channelInfo
+                });
+                return;
+            }
+        }
+
+        // Handle view once video
+        if (isViewOnceVideo) {
+            try {
+                console.log('📹 Processing view once video...');
+                
+                // Create temp directory if it doesn't exist
+                const tempDir = path.join(__dirname, '../temp');
+                if (!fs.existsSync(tempDir)) {
+                    fs.mkdirSync(tempDir);
+                }
+
+                const tempFile = path.join(tempDir, `temp_${Date.now()}.mp4`);
+                const stream = await downloadContentFromMessage(mediaMessage, 'video');
+                const writeStream = fs.createWriteStream(tempFile);
+                
+                for await (const chunk of stream) {
+                    writeStream.write(chunk);
+                }
+                writeStream.end();
+
+                // Wait for file to be written
+                await new Promise((resolve) => writeStream.on('finish', resolve));
+
+                const caption = mediaMessage.caption || '';
+
+                await sock.sendMessage(chatId, { 
+                    video: fs.readFileSync(tempFile),
+                    caption: `*💀 KnightBot Anti ViewOnce 💀*\n\n*Type:* Video 📹\n${caption ? `*Caption:* ${caption}` : ''}`,
+                    ...channelInfo
+                });
+
+                // Clean up temp file
+                fs.unlinkSync(tempFile);
+                
+                console.log('✅ View once video processed successfully');
+                return;
+            } catch (err) {
+                console.error('❌ Error processing video:', err);
+                await sock.sendMessage(chatId, { 
+                    text: '❌ Failed to process view once video! Error: ' + err.message,
+                    ...channelInfo
+                });
+                return;
+            }
+        }
+
+        // If we get here, it wasn't a view once message
+        await sock.sendMessage(chatId, { 
+            text: '❌ This is not a view once message! Please reply to a view once image/video.',
+            ...channelInfo
+        });
+
+    } catch (error) {
+        console.error('❌ Error in viewonce command:', error);
+        await sock.sendMessage(chatId, { 
+            text: '❌ Error processing view once message! Error: ' + error.message,
+            ...channelInfo
+        });
+    }
+}
+
+module.exports = viewOnceCommand; 

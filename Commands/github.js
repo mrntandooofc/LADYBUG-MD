@@ -5,16 +5,19 @@ async function githubCommand(sock, chatId) {
 https://github.com/mrntandooofc/LADYBUG-MD
 
 *📢 Official Channel:*
+https://whatsapp.com/channel/0029Vb0zLt3F1YlP2y4zLM0r
+
+*🤖 Official channel 2:*
 https://whatsapp.com/channel/0029Vb4yAGGIHphBnp4jaj2A
 
-*🤖 LADYBUG BOT INC:*
-https://chat.whatsapp.com/GcyHMvTJf8y5EytvfT8Jf0
+*⚡ Official Group:*
+https://chat.whatsapp.com/BLg5tQ6drXg6kFjTrZE1th
 
-*🇿🇼Dev:*
-Mr Ntando ofc 
-
-*💙 Support'*
+*👑 Support:*
 +263771629199
+
+*Made with 🤍 by Mr Ntando ofc*
+
 
 _Star ⭐ the repository if you like the bot!_`;
 

@@ -51,11 +51,11 @@ async function promoteCommand(sock, chatId, mentionedJids, message) {
 // Function to handle automatic promotion detection
 async function handlePromotionEvent(sock, groupId, participants, author) {
     try {
-        console.log('Promotion Event Data:', {
+       /* console.log('Promotion Event Data:', {
             groupId,
             participants,
             author
-        });
+        });*/
 
         // Get usernames for promoted participants
         const promotedUsernames = await Promise.all(participants.map(async jid => {

@@ -1,16 +1,20 @@
 const isAdmin = require('../lib/isAdmin');
 
 async function kickCommand(sock, chatId, senderId, mentionedJids, message) {
-    const { isSenderAdmin, isBotAdmin } = await isAdmin(sock, chatId, senderId);
+    // Check if user is owner
+    const isOwner = message.key.fromMe;
+    if (!isOwner) {
+        const { isSenderAdmin, isBotAdmin } = await isAdmin(sock, chatId, senderId);
 
-    if (!isBotAdmin) {
-        await sock.sendMessage(chatId, { text: 'Please make the bot an admin first.' });
-        return;
-    }
+        if (!isBotAdmin) {
+            await sock.sendMessage(chatId, { text: 'Please make the bot an admin first.' });
+            return;
+        }
 
-    if (!isSenderAdmin) {
-        await sock.sendMessage(chatId, { text: 'Only group admins can use the kick command.' });
-        return;
+        if (!isSenderAdmin) {
+            await sock.sendMessage(chatId, { text: 'Only group admins can use the kick command.' });
+            return;
+        }
     }
 
     let usersToKick = [];
@@ -28,6 +32,17 @@ async function kickCommand(sock, chatId, senderId, mentionedJids, message) {
     if (usersToKick.length === 0) {
         await sock.sendMessage(chatId, { 
             text: 'Please mention the user or reply to their message to kick!'
+        });
+        return;
+    }
+
+    // Get bot's ID
+    const botId = sock.user.id.split(':')[0] + '@s.whatsapp.net';
+
+    // Check if any of the users to kick is the bot itself
+    if (usersToKick.includes(botId)) {
+        await sock.sendMessage(chatId, { 
+            text: "I can't kick myself! 🤖"
         });
         return;
     }

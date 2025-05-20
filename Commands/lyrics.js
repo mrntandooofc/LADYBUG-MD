@@ -1,34 +1,41 @@
-const fetch = require("node-fetch");
-async function lyricsCommand(_0x398fcd, _0x1b85a9, _0x243589) {
-  if (!_0x243589) {
-    await _0x398fcd.sendMessage(_0x1b85a9, {
-      'text': "🔍 Please enter the song name to get the lyrics! Usage: *lyrics <song name>*"
-    });
-    return;
-  }
-  try {
-    const _0x2d39ce = 'https://some-random-api.com/lyrics?title=' + encodeURIComponent(_0x243589);
-    const _0x24bed8 = await fetch(_0x2d39ce);
-    if (!_0x24bed8.ok) {
-      throw await _0x24bed8.text();
+const fetch = require('node-fetch');
+
+async function lyricsCommand(sock, chatId, songTitle) {
+    if (!songTitle) {
+        await sock.sendMessage(chatId, { 
+            text: '🔍 Please enter the song name to get the lyrics! Usage: *lyrics <song name>*'
+        });
+        return;
     }
-    const _0x531461 = await _0x24bed8.json();
-    if (!_0x531461.lyrics) {
-      await _0x398fcd.sendMessage(_0x1b85a9, {
-        'text': "❌ Sorry, I couldn't find any lyrics for \"" + _0x243589 + "\"."
-      });
-      return;
+
+    try {
+        // Fetch song lyrics using the some-random-api.com API
+        const apiUrl = `https://some-random-api.com/lyrics?title=${encodeURIComponent(songTitle)}`;
+        const res = await fetch(apiUrl);
+        
+        if (!res.ok) {
+            throw await res.text();
+        }
+        
+        const json = await res.json();
+        
+        if (!json.lyrics) {
+            await sock.sendMessage(chatId, { 
+                text: `❌ Sorry, I couldn't find any lyrics for "${songTitle}".`
+            });
+            return;
+        }
+        
+        // Sending the formatted result to the user
+        await sock.sendMessage(chatId, {
+            text: `🎵 *Song Lyrics* 🎶\n\n▢ *Title:* ${json.title || songTitle}\n▢ *Artist:* ${json.author || 'Unknown'}\n\n📜 *Lyrics:*\n${json.lyrics}\n\nHope you enjoy the music! 🎧 🎶`
+        });
+    } catch (error) {
+        console.error('Error in lyrics command:', error);
+        await sock.sendMessage(chatId, { 
+            text: `❌ An error occurred while fetching the lyrics for "${songTitle}".`
+        });
     }
-    await _0x398fcd.sendMessage(_0x1b85a9, {
-      'text': "🎵 *Song Lyrics* 🎶\n\n▢ *Title:* " + (_0x531461.title || _0x243589) + "\n▢ *Artist:* " + (_0x531461.author || "Unknown") + "\n\n📜 *Lyrics:*\n" + _0x531461.lyrics + "\n\nHope you enjoy the music! 🎧 🎶"
-    });
-  } catch (_0x13dbf6) {
-    console.error("Error in lyrics command:", _0x13dbf6);
-    await _0x398fcd.sendMessage(_0x1b85a9, {
-      'text': "❌ An error occurred while fetching the lyrics for \"" + _0x243589 + "\"."
-    });
-  }
 }
-module.exports = {
-  'lyricsCommand': lyricsCommand
-};
+
+module.exports = { lyricsCommand };
