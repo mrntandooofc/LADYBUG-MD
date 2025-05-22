@@ -14,6 +14,7 @@ const { addWelcome, delWelcome, isWelcomeOn, addGoodbye, delGoodBye, isGoodByeOn
 // Command imports
 const tagAllCommand = require('./commands/tagall');
 const helpCommand = require('./commands/help');
+const menuCommand = require('./commands/downloadmenu');
 const banCommand = require('./commands/ban');
 const { promoteCommand } = require('./commands/promote');
 const { demoteCommand } = require('./commands/demote');
@@ -84,6 +85,8 @@ const setProfilePicture = require('./commands/setpp');
 const instagramCommand = require('./commands/instagram');
 const facebookCommand = require('./commands/facebook');
 const playCommand = require('./commands/play');
+const play2Command = require('./commands/play2');
+const play3Command = require('./commands/play3');
 const tiktokCommand = require('./commands/tiktok');
 const songCommand = require('./commands/song');
 const aiCommand = require('./commands/ai');
@@ -193,11 +196,11 @@ async function handleMessages(sock, messageUpdate, printLog) {
         }
 
         // List of admin commands
-        const adminCommands = ['.mute', '.unmute', '.ban', '.unban', '.promote', '.demote', '.kick', '.tagall', '.antilink'];
+        const adminCommands = ['.mute', '.unmute',  '.promote', '.demote', '.kick', '.tagall', '.antilink'];
         const isAdminCommand = adminCommands.some(cmd => userMessage.startsWith(cmd));
 
         // List of owner commands
-        const ownerCommands = ['.mode', '.autostatus', '.antidelete', '.cleartmp', '.setpp', '.clearsession', '.areact', '.autoreact'];
+        const ownerCommands = ['.mode', '.autostatus', '.antidelete', '.cleartmp', '.setpp', '.clearsession', '.areact', '.autoreact', '.play2', '.play3', '.ban', '.unban', '.owner', '.menu', '.arise ladybug', '.vv', '.chatbot', '.facebook', '.instagram', '.tiktok', '.repo', '.mrntando'];
         const isOwnerCommand = ownerCommands.some(cmd => userMessage.startsWith(cmd));
 
         let isSenderAdmin = false;
@@ -217,8 +220,6 @@ async function handleMessages(sock, messageUpdate, printLog) {
             if (
                 userMessage.startsWith('.mute') ||
                 userMessage === '.unmute' ||
-                userMessage.startsWith('.ban') ||
-                userMessage.startsWith('.unban') ||
                 userMessage.startsWith('.promote') ||
                 userMessage.startsWith('.demote')
             ) {
@@ -288,11 +289,14 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage.startsWith('.unban'):
                 await unbanCommand(sock, chatId, message);
                 break;
-            case userMessage === '.arise ladybug' || userMessage === '.menu' || userMessage === '.bot' || userMessage === '.ntando':
+            case userMessage === '.arise ladybug' || userMessage === '.menu' || userMessage === '.bot' || userMessage === '.help':
                 await helpCommand(sock, chatId, global.channelLink);
                 break;
             case userMessage === '.sticker' || userMessage === '.s':
                 await stickerCommand(sock, chatId, message);
+                break;
+            case userMessage === '.downloadmenu' || userMessage === '.1':
+                await downloadmenuCommamd(sock, chatId, global.channelLink);
                 break;
             case userMessage.startsWith('.warnings'):
                 const mentionedJidListWarnings = message.message.extendedTextMessage?.contextInfo?.mentionedJid || [];
@@ -724,10 +728,16 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage.startsWith('.play') || userMessage.startsWith('.mp3') || userMessage.startsWith('.ytmp3') || userMessage.startsWith('.yts'):
                 await songCommand(sock, chatId, message);
                 break;
+            case userMessage.startsWith('.play2'):
+                await play2Command(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.play3'):
+                await play3Command(sock, chatId, message);
+                break;
             case userMessage.startsWith('.tiktok') || userMessage.startsWith('.tt'):
                 await tiktokCommand(sock, chatId, message);
                 break;
-            case userMessage.startsWith('.gpt') || userMessage.startsWith('.gemini'):
+            case userMessage.startsWith('.ladybugai') || userMessage.startsWith('.ntandoai'):
                 await aiCommand(sock, chatId, message);
                 break;
             case userMessage.startsWith('.translate') || userMessage.startsWith('.trt'):
