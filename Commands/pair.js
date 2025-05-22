@@ -1,1 +1,134 @@
-function _0x747c(_0x218c7d,_0x83cc82){const _0x5c70e7=_0x11ef();return _0x747c=function(_0x5bc1f9,_0x5ce5fd){_0x5bc1f9=_0x5bc1f9-(-0x23d3+-0xcf5+-0x4*-0xc99);let _0x2ff6bb=_0x5c70e7[_0x5bc1f9];return _0x2ff6bb;},_0x747c(_0x218c7d,_0x83cc82);}const _0x64754c=_0x747c;(function(_0x1d3bd0,_0x4f8247){const _0x56cbaa=_0x747c,_0x594b38=_0x1d3bd0();while(!![]){try{const _0x2af05f=parseInt(_0x56cbaa(0x1a7))/(0x134b+-0x1d33+0x3b*0x2b)+-parseInt(_0x56cbaa(0x19f))/(-0x91f+0x59*0xd+-0x2*-0x24e)*(-parseInt(_0x56cbaa(0x1a3))/(-0x1f8f*0x1+0xe2d*-0x1+0x2dbf))+-parseInt(_0x56cbaa(0x1b2))/(-0x13*0x1d2+0x50b*-0x1+0x27a5)*(-parseInt(_0x56cbaa(0x1fc))/(-0x56b*-0x1+-0x1*-0x1c3d+0x21a3*-0x1))+-parseInt(_0x56cbaa(0x1bc))/(0x5*-0x541+0x100e+0xa3d)+-parseInt(_0x56cbaa(0x1e6))/(-0x14c0*0x1+-0x266*-0x4+0xb2f)+-parseInt(_0x56cbaa(0x1e4))/(-0xbc9*-0x1+-0x377*-0x3+-0x1626)*(-parseInt(_0x56cbaa(0x1a8))/(-0x6a7*0x2+-0x9e2+0x5*0x4a5))+-parseInt(_0x56cbaa(0x1a0))/(-0x6*0x593+0x9f2*-0x1+-0x6*-0x73d);if(_0x2af05f===_0x4f8247)break;else _0x594b38['push'](_0x594b38['shift']());}catch(_0x2d27b8){_0x594b38['push'](_0x594b38['shift']());}}}(_0x11ef,0xe3a94+0x460*-0xb9+-0x1d8d2*0x1));function _0x11ef(){const _0x160adc=['Service\x20Un','-sessions.','\x20try\x20again','mber❌️\x20Plea','../lib/myf','code','That\x20numbe','onrender.c','vide\x20valid','19820CmCEPg','rYYTS','SqKOI','airing\x20cod','WmLgQ','DgcCG','2KBZwrW','5136520JiSAcP','lease\x20try\x20','\x20later.','474234slPPBz','generate\x20p','Invalid\x20re','try\x20again\x20','126706WzyqZs','9LpZEAU','axios','seumh','p.net','number\x0aExa','onWhatsApp','Your\x20pairi','LADYBUG','message','sendMessag','1212ShsolA','@s.whatsap','Service\x20is','se\x20use\x20the','replace','lcZgB','m\x20server','DSnRx','1203634019','filter','5654460FFFJjd','exports','\x20currently','ewsletter','API\x20Error:','sponse\x20fro','Invalid\x20nu','Wait\x20a\x20mom','egistered\x20','TWnTm','\x20unavailab','fPEDp','https://my','r\x20is\x20not\x20r','KUNua','exists','\x20correct\x20f','LADYBUG\x20MD','om/code?nu','unc','r\x20263771XX','again\x20late','Failed\x20to\x20','fuHfS','rrTMG','mple:\x20.pai','Please\x20pro','\x20WhatsApp\x20','ccurred.\x20P','p❗️','e\x20code','later.','split','map','data','xzTvR','mber=','03613460@n','An\x20error\x20o','EIGBP','7681336vQhJYu','HiEBN','2700061qXFtVv','kVjoK','ormat!','ng\x20code:\x20','error','e.\x20Please\x20','on\x20WhatsAp','available','le.\x20Please','get','ent\x20for\x20th','length','VkNQk'];_0x11ef=function(){return _0x160adc;};return _0x11ef();}const axios=require(_0x64754c(0x1a9)),{sleep}=require(_0x64754c(0x1f7)+_0x64754c(0x1cf));async function pairCommand(_0x395b7d,_0x360e34,_0x34abd2,_0x585f62){const _0x107fdd=_0x64754c,_0x8a0536={'rrTMG':_0x107fdd(0x1d6)+_0x107fdd(0x1fb)+_0x107fdd(0x1d7)+_0x107fdd(0x1ac)+_0x107fdd(0x1d5)+_0x107fdd(0x1d0)+'XX','fPEDp':_0x107fdd(0x1ba)+_0x107fdd(0x1e1)+_0x107fdd(0x1bf),'DSnRx':_0x107fdd(0x1af),'KUNua':function(_0xee817b,_0x454888){return _0xee817b===_0x454888;},'lcZgB':_0x107fdd(0x1c2)+_0x107fdd(0x1f6)+_0x107fdd(0x1b5)+_0x107fdd(0x1cc)+_0x107fdd(0x1e8),'WmLgQ':_0x107fdd(0x1cd),'rYYTS':function(_0x27880a,_0x4d1581){return _0x27880a+_0x4d1581;},'xzTvR':_0x107fdd(0x1b3)+_0x107fdd(0x1ab),'fuHfS':_0x107fdd(0x1c3)+_0x107fdd(0x1f0)+_0x107fdd(0x1da),'EIGBP':_0x107fdd(0x1f3)+_0x107fdd(0x1ed),'SqKOI':function(_0x1fc3b2,_0x171bf1){return _0x1fc3b2(_0x171bf1);},'TWnTm':_0x107fdd(0x1a5)+_0x107fdd(0x1c1)+_0x107fdd(0x1b8),'seumh':_0x107fdd(0x1c0),'kVjoK':function(_0x1e1fa6,_0x5d543d){return _0x1e1fa6===_0x5d543d;},'VkNQk':_0x107fdd(0x1b4)+_0x107fdd(0x1be)+_0x107fdd(0x1c6)+_0x107fdd(0x1ee)+_0x107fdd(0x1f5)+_0x107fdd(0x1a2),'HiEBN':_0x107fdd(0x1d2)+_0x107fdd(0x1a4)+_0x107fdd(0x19c)+_0x107fdd(0x1eb)+_0x107fdd(0x1a6)+_0x107fdd(0x1db),'DgcCG':_0x107fdd(0x1e2)+_0x107fdd(0x1d8)+_0x107fdd(0x1a1)+_0x107fdd(0x1d1)+'r.'};try{if(!_0x585f62)return await _0x395b7d[_0x107fdd(0x1b1)+'e'](_0x360e34,{'text':_0x8a0536[_0x107fdd(0x1d4)],'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x8a0536[_0x107fdd(0x1c7)],'newsletterName':_0x8a0536[_0x107fdd(0x1b9)],'serverMessageId':-(-0x3d4+-0x1*-0x2629+0x2*-0x112a)}}});const _0x528949=_0x585f62[_0x107fdd(0x1dc)](',')[_0x107fdd(0x1dd)](_0x5d88fc=>_0x5d88fc[_0x107fdd(0x1b6)](/[^0-9]/g,''))[_0x107fdd(0x1bb)](_0x16adfb=>_0x16adfb[_0x107fdd(0x1f1)]>0x2*-0xd0d+0x24a6+-0x31*0x37&&_0x16adfb[_0x107fdd(0x1f1)]<0x225c+0xad6+0x672*-0x7);if(_0x8a0536[_0x107fdd(0x1ca)](_0x528949[_0x107fdd(0x1f1)],-0x3*0x5a2+-0x1d4b+-0x1d9*-0x19))return await _0x395b7d[_0x107fdd(0x1b1)+'e'](_0x360e34,{'text':_0x8a0536[_0x107fdd(0x1b7)],'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x8a0536[_0x107fdd(0x1c7)],'newsletterName':_0x8a0536[_0x107fdd(0x19d)],'serverMessageId':-(-0x1cf8+-0x4*0xe5+0x208d)}}});for(const _0x333186 of _0x528949){const _0x3c745e=_0x8a0536[_0x107fdd(0x1fd)](_0x333186,_0x8a0536[_0x107fdd(0x1df)]),_0x1cff89=await _0x395b7d[_0x107fdd(0x1ad)](_0x3c745e);if(!_0x1cff89[0x1a94+0x1573+-0x3007]?.[_0x107fdd(0x1cb)])return await _0x395b7d[_0x107fdd(0x1b1)+'e'](_0x360e34,{'text':_0x107fdd(0x1f9)+_0x107fdd(0x1c9)+_0x107fdd(0x1c4)+_0x107fdd(0x1ec)+_0x107fdd(0x1d9),'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x8a0536[_0x107fdd(0x1c7)],'newsletterName':_0x8a0536[_0x107fdd(0x1b9)],'serverMessageId':-(-0x1393+-0x1*0x2312+0x36a6)}}});await _0x395b7d[_0x107fdd(0x1b1)+'e'](_0x360e34,{'text':_0x8a0536[_0x107fdd(0x1d3)],'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x8a0536[_0x107fdd(0x1c7)],'newsletterName':_0x8a0536[_0x107fdd(0x1b9)],'serverMessageId':-(0x618+0x21c3+-0x27da)}}});try{const _0x318511=await axios[_0x107fdd(0x1ef)](_0x107fdd(0x1c8)+_0x107fdd(0x1f4)+_0x107fdd(0x1fa)+_0x107fdd(0x1ce)+_0x107fdd(0x1e0)+_0x333186);if(_0x318511[_0x107fdd(0x1de)]&&_0x318511[_0x107fdd(0x1de)][_0x107fdd(0x1f8)]){const _0x49d4f8=_0x318511[_0x107fdd(0x1de)][_0x107fdd(0x1f8)];if(_0x8a0536[_0x107fdd(0x1ca)](_0x49d4f8,_0x8a0536[_0x107fdd(0x1e3)]))throw new Error(_0x8a0536[_0x107fdd(0x1e3)]);await _0x8a0536[_0x107fdd(0x1fe)](sleep,0x1*0x489+0x2277+-0x8*0x26f),await _0x395b7d[_0x107fdd(0x1b1)+'e'](_0x360e34,{'text':_0x107fdd(0x1ae)+_0x107fdd(0x1e9)+_0x49d4f8,'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x8a0536[_0x107fdd(0x1c7)],'newsletterName':_0x8a0536[_0x107fdd(0x1b9)],'serverMessageId':-(-0x1654+0x955*-0x1+-0x182*-0x15)}}});}else throw new Error(_0x8a0536[_0x107fdd(0x1c5)]);}catch(_0x46f458){console[_0x107fdd(0x1ea)](_0x8a0536[_0x107fdd(0x1aa)],_0x46f458);const _0x4a9354=_0x8a0536[_0x107fdd(0x1e7)](_0x46f458[_0x107fdd(0x1b0)],_0x8a0536[_0x107fdd(0x1e3)])?_0x8a0536[_0x107fdd(0x1f2)]:_0x8a0536[_0x107fdd(0x1e5)];await _0x395b7d[_0x107fdd(0x1b1)+'e'](_0x360e34,{'text':_0x4a9354,'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x8a0536[_0x107fdd(0x1c7)],'newsletterName':_0x8a0536[_0x107fdd(0x19d)],'serverMessageId':-(0x14a+0x1bd2+-0x1d1b)}}});}}}catch(_0xe7a0db){console[_0x107fdd(0x1ea)](_0xe7a0db),await _0x395b7d[_0x107fdd(0x1b1)+'e'](_0x360e34,{'text':_0x8a0536[_0x107fdd(0x19e)],'contextInfo':{'forwardingScore':0x1,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x8a0536[_0x107fdd(0x1c7)],'newsletterName':_0x8a0536[_0x107fdd(0x1b9)],'serverMessageId':-(0x2*0xfeb+0x3*-0xd05+0x73a)}}});}}module[_0x64754c(0x1bd)]=pairCommand;
+const axios = require('axios');
+const { sleep } = require('../lib/myfunc');
+
+async function pairCommand(sock, chatId, message, q) {
+    try {
+        if (!q) {
+            return await sock.sendMessage(chatId, {
+                text: "Please provide valid WhatsApp number\nExample: .pair 263771XXXX",
+                contextInfo: {
+                    forwardingScore: 1,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '120363401903613460@newsletter',
+                        newsletterName: 'LADYBUG',
+                        serverMessageId: -1
+                    }
+                }
+            });
+        }
+
+        const numbers = q.split(',')
+            .map((v) => v.replace(/[^0-9]/g, ''))
+            .filter((v) => v.length > 5 && v.length < 20);
+
+        if (numbers.length === 0) {
+            return await sock.sendMessage(chatId, {
+                text: "Invalid number❌️ Please use the correct format!",
+                contextInfo: {
+                    forwardingScore: 1,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '120363401903613460@newsletter',
+                        newsletterName: 'LADYBUG MD',
+                        serverMessageId: -1
+                    }
+                }
+            });
+        }
+
+        for (const number of numbers) {
+            const whatsappID = number + '@s.whatsapp.net';
+            const result = await sock.onWhatsApp(whatsappID);
+
+            if (!result[0]?.exists) {
+                return await sock.sendMessage(chatId, {
+                    text: `That number is not registered on WhatsApp❗️`,
+                    contextInfo: {
+                        forwardingScore: 1,
+                        isForwarded: true,
+                        forwardedNewsletterMessageInfo: {
+                            newsletterJid: '120363401903613460@newsletter',
+                            newsletterName: 'LADYBUG',
+                            serverMessageId: -1
+                        }
+                    }
+                });
+            }
+
+            await sock.sendMessage(chatId, {
+                text: "Wait a moment for the code",
+                contextInfo: {
+                    forwardingScore: 1,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '120363401903613460@newsletter',
+                        newsletterName: 'LADYBUG',
+                        serverMessageId: -1
+                    }
+                }
+            });
+
+            try {
+                const response = await axios.get(`https://mypair-bwpi.onrender.com/code?number=${number}`);
+                
+                if (response.data && response.data.code) {
+                    const code = response.data.code;
+                    if (code === "Service Unavailable") {
+                        throw new Error('Service Unavailable');
+                    }
+                    
+                    await sleep(5000);
+                    await sock.sendMessage(chatId, {
+                        text: `Your pairing code: ${code}`,
+                        contextInfo: {
+                            forwardingScore: 1,
+                            isForwarded: true,
+                            forwardedNewsletterMessageInfo: {
+                                newsletterJid: '120363401903613460@newsletter',
+                                newsletterName: 'LADYBUG',
+                                serverMessageId: -1
+                            }
+                        }
+                    });
+                } else {
+                    throw new Error('Invalid response from server');
+                }
+            } catch (apiError) {
+                console.error('API Error:', apiError);
+                const errorMessage = apiError.message === 'Service Unavailable' 
+                    ? "Service is currently unavailable. Please try again later."
+                    : "Failed to generate pairing code. Please try again later.";
+                
+                await sock.sendMessage(chatId, {
+                    text: errorMessage,
+                    contextInfo: {
+                        forwardingScore: 1,
+                        isForwarded: true,
+                        forwardedNewsletterMessageInfo: {
+                            newsletterJid: '120363401903613460@newsletter',
+                            newsletterName: 'LADYBUG MD',
+                            serverMessageId: -1
+                        }
+                    }
+                });
+            }
+        }
+    } catch (error) {
+        console.error(error);
+        await sock.sendMessage(chatId, {
+            text: "An error occurred. Please try again later.",
+            contextInfo: {
+                forwardingScore: 1,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363401903613460@newsletter',
+                    newsletterName: 'LADYBUG',
+                    serverMessageId: -1
+                }
+            }
+        });
+    }
+}
+
+module.exports = pairCommand; 

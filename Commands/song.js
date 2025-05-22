@@ -1,1 +1,191 @@
-const _0x29b900=_0x2416;(function(_0x4d9d6c,_0x2047e2){const _0x2931cf=_0x2416,_0x4d88ae=_0x4d9d6c();while(!![]){try{const _0x3ab02d=parseInt(_0x2931cf(0x10c))/(0x10*0x115+0x239b+0x1*-0x34ea)+parseInt(_0x2931cf(0xf4))/(-0x2*-0x63a+-0x2157+0x14e5)*(parseInt(_0x2931cf(0x114))/(-0x1b16*0x1+0x1*0xe5d+0x14*0xa3))+parseInt(_0x2931cf(0x121))/(-0x6*-0x525+-0x2118+-0x1*-0x23e)*(-parseInt(_0x2931cf(0x11e))/(-0x203*-0x8+0xa*-0x288+0x93d))+parseInt(_0x2931cf(0x104))/(0xc*-0xb9+0x11a0+-0x8ee)*(parseInt(_0x2931cf(0x161))/(0x244c*-0x1+-0x8f5+-0x678*-0x7))+-parseInt(_0x2931cf(0x11d))/(0x2a*0xa3+-0x274*-0x6+-0x296e)+-parseInt(_0x2931cf(0x153))/(-0x20c5+0xb*-0x257+0x3a8b)+parseInt(_0x2931cf(0x12a))/(-0x8a5*-0x4+-0x2521+0x297);if(_0x3ab02d===_0x2047e2)break;else _0x4d88ae['push'](_0x4d88ae['shift']());}catch(_0xd6c604){_0x4d88ae['push'](_0x4d88ae['shift']());}}}(_0x51a9,-0x5910a+0x1099*0xed+0x96ac));const axios=require(_0x29b900(0x144)),yts=require(_0x29b900(0x12c)),fetch=require(_0x29b900(0x102)),fs=require('fs'),path=require(_0x29b900(0x14b)),{exec}=require(_0x29b900(0x14f)+_0x29b900(0x103)),util=require(_0x29b900(0xf8)),execPromise=util[_0x29b900(0x164)](exec);function _0x51a9(){const _0x51c46d=['on:*\x20','toString','../temp','duration','existsSync','tyYqL','axios','=zenkey&ur','ong\x20comman','extendedTe','views','IHwjR','t\x20to\x20downl','path','error','VgGom','ovedF','child_proc','Error\x20in\x20s','YcSlo','i.zenkey.m','3628593FdohWd','padStart','\x20axeel\x20API','my.id/api/','result','SaYtE','wnload/ytm','mkdirSync','y.id/api/d','song..._','Kbync','kfXUG','trim','ad\x20methods','19880AKSdTB','json','p3?apikey=','promisify','download\x20t','What\x20song\x20','oad?','\x0a\x0a_Downloa','All\x20downlo','Conversion','lease\x20try\x20','exports','\x20-ab\x20128k\x20','message','JmWeS','Failed\x20to\x20','MgKve','PpEQT','LjdWk','MnShH','replace','data','https://ap','audio/mpeg','dYsdq','1040828eLAhrD','text','PI:','\x20song.','util','downloadUr','unlinkSync','url','he\x20song.\x20P','\x20siputzx\x20A','tLFXB','statSync','buffer','jlWah','node-fetch','ess','1668eqjpBD','ownload/yt','\x20different','.mp3','\x0a*Views:*\x20','do\x20you\x20wan','*\x0a\x0a*Durati','seconds','939547nHxfpW','KYzye','ffmpeg\x20-i\x20','axeel&url=','i.axeel.my','xtMessage','ionci','yZzSo','3RJxBoY','\x20failed','title','-ar\x2044100\x20','.m4a','\x22\x20-vn\x20-aco','again\x20late','ceJvU','NIbMK','5508944nswVgB','10915ExyGYy','zEqlZ','Error\x20with','1304GtWhGQ','writeFileS','uyBRb','dec\x20libmp3','floor','slice','now','split','sendMessag','2347470WtdbKw','lame\x20-ac\x202','yt-search','i.siputzx.','.id/api/do','r\x20or\x20try\x20a','join','d/ytmp3?ur','PNruP','FICMo','mp3?apikey','lWqgP','conversati','size','length','ync','\x20zenkey\x20AP','No\x20songs\x20f','ound!','ding\x20your\x20'];_0x51a9=function(){return _0x51c46d;};return _0x51a9();}async function songCommand(_0x149b0e,_0x1397ca,_0x51e543){const _0x2c4f9e=_0x29b900,_0x2c164d={'ovedF':_0x2c4f9e(0xe0)+_0x2c4f9e(0x109)+_0x2c4f9e(0x14a)+_0x2c4f9e(0xe1),'ionci':function(_0x44b486,_0x537b7d){return _0x44b486(_0x537b7d);},'lWqgP':function(_0x11f63c,_0x428420){return _0x11f63c===_0x428420;},'YcSlo':_0x2c4f9e(0x13b)+_0x2c4f9e(0x13c),'MnShH':_0x2c4f9e(0x140),'zEqlZ':function(_0x59b1a7,_0x2662e6){return _0x59b1a7(_0x2662e6);},'PNruP':function(_0x1acca2,_0x5c2daf){return _0x1acca2(_0x5c2daf);},'LjdWk':function(_0x357206,_0x59bf50){return _0x357206<_0x59bf50;},'yZzSo':_0x2c4f9e(0xe4)+_0x2c4f9e(0x115),'IHwjR':_0x2c4f9e(0xf2),'VgGom':function(_0x5d6705,_0x180202,_0x206d12){return _0x5d6705(_0x180202,_0x206d12);},'jlWah':_0x2c4f9e(0x120)+_0x2c4f9e(0xfd)+_0x2c4f9e(0xf6),'Kbync':function(_0x309244,_0x4b6a87){return _0x309244(_0x4b6a87);},'SaYtE':function(_0x31bb73,_0xab82e){return _0x31bb73<_0xab82e;},'ceJvU':_0x2c4f9e(0x120)+_0x2c4f9e(0x13a)+'I:','FICMo':function(_0x34226b,_0x5349d5){return _0x34226b<_0x5349d5;},'MgKve':function(_0x4b3d1c,_0x3d04fd,_0x5e9c30){return _0x4b3d1c(_0x3d04fd,_0x5e9c30);},'tyYqL':_0x2c4f9e(0x120)+_0x2c4f9e(0x155)+':','KYzye':_0x2c4f9e(0xe3)+_0x2c4f9e(0x160)+_0x2c4f9e(0x115),'uyBRb':_0x2c4f9e(0x150)+_0x2c4f9e(0x146)+'d:','JmWeS':_0x2c4f9e(0xea)+_0x2c4f9e(0xdf)+_0x2c4f9e(0xfc)+_0x2c4f9e(0xe5)+_0x2c4f9e(0x11a)+_0x2c4f9e(0x12f)+_0x2c4f9e(0x106)+_0x2c4f9e(0xf7)};try{const _0x48976e=_0x51e543[_0x2c4f9e(0xe8)]?.[_0x2c4f9e(0x136)+'on']||_0x51e543[_0x2c4f9e(0xe8)]?.[_0x2c4f9e(0x147)+_0x2c4f9e(0x111)]?.[_0x2c4f9e(0xf5)],_0x4e19e8=_0x48976e[_0x2c4f9e(0x128)]('\x20')[_0x2c4f9e(0x126)](-0x10cb+0xc37*0x2+-0x3d1*0x2)[_0x2c4f9e(0x130)]('\x20')[_0x2c4f9e(0x15f)]();if(!_0x4e19e8)return await _0x149b0e[_0x2c4f9e(0x129)+'e'](_0x1397ca,{'text':_0x2c164d[_0x2c4f9e(0x14e)]});const {videos:_0x693b3b}=await _0x2c164d[_0x2c4f9e(0x112)](yts,_0x4e19e8);if(!_0x693b3b||_0x2c164d[_0x2c4f9e(0x135)](_0x693b3b[_0x2c4f9e(0x138)],0x184b+0xa7f+0x49*-0x7a))return await _0x149b0e[_0x2c4f9e(0x129)+'e'](_0x1397ca,{'text':_0x2c164d[_0x2c4f9e(0x151)]});const _0x56404f=_0x693b3b[-0x2e*0x80+0x2502+0xe02*-0x1],_0x23de8e=_0x56404f[_0x2c4f9e(0xfb)];await _0x149b0e[_0x2c4f9e(0x129)+'e'](_0x1397ca,{'text':'*'+_0x56404f[_0x2c4f9e(0x116)]+(_0x2c4f9e(0x10a)+_0x2c4f9e(0x13e))+_0x2c164d[_0x2c4f9e(0x112)](formatDuration,_0x56404f[_0x2c4f9e(0x141)][_0x2c4f9e(0x10b)])+_0x2c4f9e(0x108)+_0x2c164d[_0x2c4f9e(0x112)](formatNumber,_0x56404f[_0x2c4f9e(0x148)])+(_0x2c4f9e(0xe2)+_0x2c4f9e(0x13d)+_0x2c4f9e(0x15c))},{'quoted':_0x51e543});const _0x311bc7=path[_0x2c4f9e(0x130)](__dirname,_0x2c164d[_0x2c4f9e(0xee)]);!fs[_0x2c4f9e(0x142)](_0x311bc7)&&fs[_0x2c4f9e(0x15a)](_0x311bc7);const _0x4ffaab=path[_0x2c4f9e(0x130)](_0x311bc7,Date[_0x2c4f9e(0x127)]()+_0x2c4f9e(0x107)),_0x247807=path[_0x2c4f9e(0x130)](_0x311bc7,Date[_0x2c4f9e(0x127)]()+_0x2c4f9e(0x118));try{const _0x44ae5=await _0x2c164d[_0x2c4f9e(0x112)](fetch,_0x2c4f9e(0xf1)+_0x2c4f9e(0x12d)+_0x2c4f9e(0x156)+_0x2c4f9e(0x131)+'l='+_0x2c164d[_0x2c4f9e(0x11f)](encodeURIComponent,_0x23de8e)),_0x1e747c=await _0x44ae5[_0x2c4f9e(0x162)]();if(_0x1e747c&&_0x1e747c[_0x2c4f9e(0xf0)]&&_0x1e747c[_0x2c4f9e(0xf0)]['dl']){const _0x316fbc=await _0x2c164d[_0x2c4f9e(0x132)](fetch,_0x1e747c[_0x2c4f9e(0xf0)]['dl']),_0x533a69=await _0x316fbc[_0x2c4f9e(0x100)]();fs[_0x2c4f9e(0x122)+_0x2c4f9e(0x139)](_0x247807,_0x533a69),await _0x2c164d[_0x2c4f9e(0x132)](execPromise,_0x2c4f9e(0x10e)+'\x22'+_0x247807+(_0x2c4f9e(0x119)+_0x2c4f9e(0x124)+_0x2c4f9e(0x12b)+_0x2c4f9e(0xe7)+_0x2c4f9e(0x117)+'\x22')+_0x4ffaab+'\x22');const _0x4ef9c6=fs[_0x2c4f9e(0xff)](_0x4ffaab);if(_0x2c164d[_0x2c4f9e(0xed)](_0x4ef9c6[_0x2c4f9e(0x137)],0x1d7a+0x9*-0xdd+-0x11b5))throw new Error(_0x2c164d[_0x2c4f9e(0x113)]);await _0x149b0e[_0x2c4f9e(0x129)+'e'](_0x1397ca,{'audio':{'url':_0x4ffaab},'mimetype':_0x2c164d[_0x2c4f9e(0x149)],'fileName':_0x56404f[_0x2c4f9e(0x116)]+_0x2c4f9e(0x107),'ptt':![]},{'quoted':_0x51e543}),_0x2c164d[_0x2c4f9e(0x14d)](setTimeout,()=>{const _0x30c1a3=_0x2c4f9e;if(fs[_0x30c1a3(0x142)](_0x4ffaab))fs[_0x30c1a3(0xfa)](_0x4ffaab);if(fs[_0x30c1a3(0x142)](_0x247807))fs[_0x30c1a3(0xfa)](_0x247807);},-0x51e+0x119b+-0x259*-0x3);return;}}catch(_0x506ffe){console[_0x2c4f9e(0x14c)](_0x2c164d[_0x2c4f9e(0x101)],_0x506ffe);try{const _0x1f3fa8=await _0x2c164d[_0x2c4f9e(0x11f)](fetch,_0x2c4f9e(0xf1)+_0x2c4f9e(0x152)+_0x2c4f9e(0x15b)+_0x2c4f9e(0x105)+_0x2c4f9e(0x134)+_0x2c4f9e(0x145)+'l='+_0x2c164d[_0x2c4f9e(0x112)](encodeURIComponent,_0x23de8e)),_0x20b85f=await _0x1f3fa8[_0x2c4f9e(0x162)]();if(_0x20b85f&&_0x20b85f[_0x2c4f9e(0x157)]&&_0x20b85f[_0x2c4f9e(0x157)][_0x2c4f9e(0xf9)+'l']){const _0x51e250=await _0x2c164d[_0x2c4f9e(0x132)](fetch,_0x20b85f[_0x2c4f9e(0x157)][_0x2c4f9e(0xf9)+'l']),_0x32fdc1=await _0x51e250[_0x2c4f9e(0x100)]();fs[_0x2c4f9e(0x122)+_0x2c4f9e(0x139)](_0x247807,_0x32fdc1),await _0x2c164d[_0x2c4f9e(0x15d)](execPromise,_0x2c4f9e(0x10e)+'\x22'+_0x247807+(_0x2c4f9e(0x119)+_0x2c4f9e(0x124)+_0x2c4f9e(0x12b)+_0x2c4f9e(0xe7)+_0x2c4f9e(0x117)+'\x22')+_0x4ffaab+'\x22');const _0x5a0cac=fs[_0x2c4f9e(0xff)](_0x4ffaab);if(_0x2c164d[_0x2c4f9e(0x158)](_0x5a0cac[_0x2c4f9e(0x137)],-0x2*-0x10c6+0x3*-0xbc3+0x5bd))throw new Error(_0x2c164d[_0x2c4f9e(0x113)]);await _0x149b0e[_0x2c4f9e(0x129)+'e'](_0x1397ca,{'audio':{'url':_0x4ffaab},'mimetype':_0x2c164d[_0x2c4f9e(0x149)],'fileName':_0x56404f[_0x2c4f9e(0x116)]+_0x2c4f9e(0x107),'ptt':![]},{'quoted':_0x51e543}),_0x2c164d[_0x2c4f9e(0x14d)](setTimeout,()=>{const _0x15a9d7=_0x2c4f9e;if(fs[_0x15a9d7(0x142)](_0x4ffaab))fs[_0x15a9d7(0xfa)](_0x4ffaab);if(fs[_0x15a9d7(0x142)](_0x247807))fs[_0x15a9d7(0xfa)](_0x247807);},0x20b4+0x22*-0xbf+0xc32);return;}}catch(_0x2409bc){console[_0x2c4f9e(0x14c)](_0x2c164d[_0x2c4f9e(0x11b)],_0x2409bc);try{const _0x8bbd6e=await _0x2c164d[_0x2c4f9e(0x11f)](fetch,_0x2c4f9e(0xf1)+_0x2c4f9e(0x110)+_0x2c4f9e(0x12e)+_0x2c4f9e(0x159)+_0x2c4f9e(0x163)+_0x2c4f9e(0x10f)+_0x2c164d[_0x2c4f9e(0x132)](encodeURIComponent,_0x23de8e)),_0x45e99c=await _0x8bbd6e[_0x2c4f9e(0x162)]();if(_0x45e99c&&_0x45e99c[_0x2c4f9e(0x157)]&&_0x45e99c[_0x2c4f9e(0x157)][_0x2c4f9e(0xf9)+'l']){const _0x199c83=await _0x2c164d[_0x2c4f9e(0x15d)](fetch,_0x45e99c[_0x2c4f9e(0x157)][_0x2c4f9e(0xf9)+'l']),_0x37743d=await _0x199c83[_0x2c4f9e(0x100)]();fs[_0x2c4f9e(0x122)+_0x2c4f9e(0x139)](_0x247807,_0x37743d),await _0x2c164d[_0x2c4f9e(0x112)](execPromise,_0x2c4f9e(0x10e)+'\x22'+_0x247807+(_0x2c4f9e(0x119)+_0x2c4f9e(0x124)+_0x2c4f9e(0x12b)+_0x2c4f9e(0xe7)+_0x2c4f9e(0x117)+'\x22')+_0x4ffaab+'\x22');const _0x167bbc=fs[_0x2c4f9e(0xff)](_0x4ffaab);if(_0x2c164d[_0x2c4f9e(0x133)](_0x167bbc[_0x2c4f9e(0x137)],-0x1c2d+-0x338*0x1+0x2365))throw new Error(_0x2c164d[_0x2c4f9e(0x113)]);await _0x149b0e[_0x2c4f9e(0x129)+'e'](_0x1397ca,{'audio':{'url':_0x4ffaab},'mimetype':_0x2c164d[_0x2c4f9e(0x149)],'fileName':_0x56404f[_0x2c4f9e(0x116)]+_0x2c4f9e(0x107),'ptt':![]},{'quoted':_0x51e543}),_0x2c164d[_0x2c4f9e(0xeb)](setTimeout,()=>{const _0x13363b=_0x2c4f9e;if(fs[_0x13363b(0x142)](_0x4ffaab))fs[_0x13363b(0xfa)](_0x4ffaab);if(fs[_0x13363b(0x142)](_0x247807))fs[_0x13363b(0xfa)](_0x247807);},0x542+0x8bb+0x58b);return;}}catch(_0x3b68b3){console[_0x2c4f9e(0x14c)](_0x2c164d[_0x2c4f9e(0x143)],_0x3b68b3);throw new Error(_0x2c164d[_0x2c4f9e(0x10d)]);}}}}catch(_0x2da6ee){console[_0x2c4f9e(0x14c)](_0x2c164d[_0x2c4f9e(0x123)],_0x2da6ee),await _0x149b0e[_0x2c4f9e(0x129)+'e'](_0x1397ca,{'text':_0x2c164d[_0x2c4f9e(0xe9)]});}}function formatDuration(_0x5d91d7){const _0x3a885a=_0x29b900,_0x518d9b={'tLFXB':function(_0x27d4cd,_0x14fb5b){return _0x27d4cd/_0x14fb5b;},'PpEQT':function(_0x230293,_0x4abfcb){return _0x230293/_0x4abfcb;},'dYsdq':function(_0x33ebe9,_0x54de0d){return _0x33ebe9%_0x54de0d;},'kfXUG':function(_0x332b1d,_0x34074a){return _0x332b1d%_0x34074a;},'NIbMK':function(_0x5c0322,_0x5ef9a9){return _0x5c0322>_0x5ef9a9;}},_0x5f9dc=Math[_0x3a885a(0x125)](_0x518d9b[_0x3a885a(0xfe)](_0x5d91d7,0x13ea+0x56d+0xb47*-0x1)),_0xe889af=Math[_0x3a885a(0x125)](_0x518d9b[_0x3a885a(0xec)](_0x518d9b[_0x3a885a(0xf3)](_0x5d91d7,0x1773+0x157*0x2+-0xc11),0x10df+0x12*0x97+-0x1b41*0x1)),_0x48f10f=_0x518d9b[_0x3a885a(0x15e)](_0x5d91d7,0x4c*0x3a+0x106b+-0x2167);return _0x518d9b[_0x3a885a(0x11c)](_0x5f9dc,-0x22aa+-0x1d97+-0x156b*-0x3)?_0x5f9dc+':'+_0xe889af[_0x3a885a(0x13f)]()[_0x3a885a(0x154)](-0xfdb+-0x55c+0x1539,'0')+':'+_0x48f10f[_0x3a885a(0x13f)]()[_0x3a885a(0x154)](-0xffe+0x1*-0x897+0x4eb*0x5,'0'):_0xe889af+':'+_0x48f10f[_0x3a885a(0x13f)]()[_0x3a885a(0x154)](-0x1aa9+-0x56*0x2f+0x2a75,'0');}function _0x2416(_0x2bee14,_0x7e9f20){const _0x12f87a=_0x51a9();return _0x2416=function(_0xa3587c,_0x2b089d){_0xa3587c=_0xa3587c-(-0x1*-0xba7+0xcf*0x3+-0xd35);let _0x2c8191=_0x12f87a[_0xa3587c];return _0x2c8191;},_0x2416(_0x2bee14,_0x7e9f20);}function formatNumber(_0x48ecf5){const _0x58a5f3=_0x29b900;return _0x48ecf5[_0x58a5f3(0x13f)]()[_0x58a5f3(0xef)](/\B(?=(\d{3})+(?!\d))/g,',');}module[_0x29b900(0xe6)]=songCommand;
+/*Créditos A Quien Correspondan 
+Play Traido y Editado 
+Por Cuervo-Team-Supreme*/
+const axios = require('axios');
+const yts = require('yt-search');
+const fetch = require('node-fetch');
+const fs = require('fs');
+const path = require('path');
+const { exec } = require('child_process');
+const util = require('util');
+const execPromise = util.promisify(exec);
+
+async function songCommand(sock, chatId, message) {
+    try {
+        const text = message.message?.conversation || message.message?.extendedTextMessage?.text;
+        const searchQuery = text.split(' ').slice(1).join(' ').trim();
+        
+        if (!searchQuery) {
+            return await sock.sendMessage(chatId, { 
+                text: "What song do you want to download?"
+            });
+        }
+
+        // Search for the song
+        const { videos } = await yts(searchQuery);
+        if (!videos || videos.length === 0) {
+            return await sock.sendMessage(chatId, { 
+                text: "No songs found!"
+            });
+        }
+
+        const video = videos[0];
+        const videoUrl = video.url;
+
+        // Send loading message
+        await sock.sendMessage(chatId, {
+            text: `*${video.title}*\n\n*Duration:* ${formatDuration(video.duration.seconds)}\n*Views:* ${formatNumber(video.views)}\n\n_ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ʟᴀᴅʏʙᴜɢ ᴍᴅ🤍..._`
+        }, { quoted: message });
+
+        // Create temp directory if it doesn't exist
+        const tempDir = path.join(__dirname, '../temp');
+        if (!fs.existsSync(tempDir)) {
+            fs.mkdirSync(tempDir);
+        }
+
+        const tempFile = path.join(tempDir, `${Date.now()}.mp3`);
+        const tempM4a = path.join(tempDir, `${Date.now()}.m4a`);
+
+        try {
+            // Try siputzx API first
+            const siputzxRes = await fetch(`https://api.siputzx.my.id/api/d/ytmp3?url=${encodeURIComponent(videoUrl)}`);
+            const siputzxData = await siputzxRes.json();
+            
+            if (siputzxData && siputzxData.data && siputzxData.data.dl) {
+                // Download the file first
+                const response = await fetch(siputzxData.data.dl);
+                const buffer = await response.buffer();
+                
+                // Write to temp file
+                fs.writeFileSync(tempM4a, buffer);
+                
+                // Convert to MP3 with proper WhatsApp-compatible settings
+                await execPromise(`ffmpeg -i "${tempM4a}" -vn -acodec libmp3lame -ac 2 -ab 128k -ar 44100 "${tempFile}"`);
+                
+                // Check file size
+                const stats = fs.statSync(tempFile);
+                if (stats.size < 1024) {
+                    throw new Error('Conversion failed');
+                }
+
+                await sock.sendMessage(chatId, {
+                    audio: { url: tempFile },
+                    mimetype: "audio/mpeg",
+                    fileName: `${video.title}.mp3`,
+                    ptt: false
+                }, { quoted: message });
+
+                // Clean up temp files
+                setTimeout(() => {
+                    if (fs.existsSync(tempFile)) fs.unlinkSync(tempFile);
+                    if (fs.existsSync(tempM4a)) fs.unlinkSync(tempM4a);
+                }, 5000);
+                return;
+            }
+        } catch (e1) {
+            console.error('Error with siputzx API:', e1);
+            try {
+                // Try zenkey API as fallback
+                const zenkeyRes = await fetch(`https://api.zenkey.my.id/api/download/ytmp3?apikey=zenkey&url=${encodeURIComponent(videoUrl)}`);
+                const zenkeyData = await zenkeyRes.json();
+                
+                if (zenkeyData && zenkeyData.result && zenkeyData.result.downloadUrl) {
+                    // Download the file first
+                    const response = await fetch(zenkeyData.result.downloadUrl);
+                    const buffer = await response.buffer();
+                    
+                    // Write to temp file
+                    fs.writeFileSync(tempM4a, buffer);
+                    
+                    // Convert to MP3 with proper WhatsApp-compatible settings
+                    await execPromise(`ffmpeg -i "${tempM4a}" -vn -acodec libmp3lame -ac 2 -ab 128k -ar 44100 "${tempFile}"`);
+                    
+                    // Check file size
+                    const stats = fs.statSync(tempFile);
+                    if (stats.size < 1024) {
+                        throw new Error('Conversion failed');
+                    }
+
+                    await sock.sendMessage(chatId, {
+                        audio: { url: tempFile },
+                        mimetype: "audio/mpeg",
+                        fileName: `${video.title}.mp3`,
+                        ptt: false
+                    }, { quoted: message });
+
+                    // Clean up temp files
+                    setTimeout(() => {
+                        if (fs.existsSync(tempFile)) fs.unlinkSync(tempFile);
+                        if (fs.existsSync(tempM4a)) fs.unlinkSync(tempM4a);
+                    }, 5000);
+                    return;
+                }
+            } catch (e2) {
+                console.error('Error with zenkey API:', e2);
+                try {
+                    // Try axeel API as last resort
+                    const axeelRes = await fetch(`https://api.axeel.my.id/api/download/ytmp3?apikey=axeel&url=${encodeURIComponent(videoUrl)}`);
+                    const axeelData = await axeelRes.json();
+                    
+                    if (axeelData && axeelData.result && axeelData.result.downloadUrl) {
+                        // Download the file first
+                        const response = await fetch(axeelData.result.downloadUrl);
+                        const buffer = await response.buffer();
+                        
+                        // Write to temp file
+                        fs.writeFileSync(tempM4a, buffer);
+                        
+                        // Convert to MP3 with proper WhatsApp-compatible settings
+                        await execPromise(`ffmpeg -i "${tempM4a}" -vn -acodec libmp3lame -ac 2 -ab 128k -ar 44100 "${tempFile}"`);
+                        
+                        // Check file size
+                        const stats = fs.statSync(tempFile);
+                        if (stats.size < 1024) {
+                            throw new Error('Conversion failed');
+                        }
+
+                        await sock.sendMessage(chatId, {
+                            audio: { url: tempFile },
+                            mimetype: "audio/mpeg",
+                            fileName: `${video.title}.mp3`,
+                            ptt: false
+                        }, { quoted: message });
+
+                        // Clean up temp files
+                        setTimeout(() => {
+                            if (fs.existsSync(tempFile)) fs.unlinkSync(tempFile);
+                            if (fs.existsSync(tempM4a)) fs.unlinkSync(tempM4a);
+                        }, 5000);
+                        return;
+                    }
+                } catch (e3) {
+                    console.error('Error with axeel API:', e3);
+                    throw new Error("All download methods failed");
+                }
+            }
+        }
+    } catch (error) {
+        console.error('Error in song command:', error);
+        await sock.sendMessage(chatId, { 
+            text: "Failed to download the song. Please try again later or try a different song."
+        });
+    }
+}
+
+function formatDuration(seconds) {
+    const hours = Math.floor(seconds / 3600);
+    const minutes = Math.floor((seconds % 3600) / 60);
+    const remainingSeconds = seconds % 60;
+    
+    if (hours > 0) {
+        return `${hours}:${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+    } else {
+        return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
+    }
+}
+
+function formatNumber(num) {
+    return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+module.exports = songCommand; 

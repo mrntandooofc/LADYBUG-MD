@@ -1,1 +1,99 @@
-function _0x3d25(_0x116a14,_0x2e6701){const _0x524a8e=_0x1117();return _0x3d25=function(_0x149909,_0xef7884){_0x149909=_0x149909-(-0x96a+0x1*0x961+0x10*0x11);let _0xc64d1c=_0x524a8e[_0x149909];return _0xc64d1c;},_0x3d25(_0x116a14,_0x2e6701);}function _0x1117(){const _0x5a4b04=['i.ryzendes','toLowerCas','stion\x20afte','Invalid\x20re','All\x20Gemini','o\x20get\x20resp','sendMessag','UkklY','eyhQv','site/api/c','data','pis.my.id/','NakzJ','m\x20API','my.id/api/','error','mxTVP','emini2?tex','split','https://va','success','TtnVq','json','\x20APIs\x20fail','in\x20later.','1738957mFfLkc','https://ap','xtMessage','conversati','EesLx','prompt','BIWNC','y=gifted&q','2471gLVHlL','slice','Please\x20pro','site/api/g','?q=','text=','key','text','niaipro?ap','answer','.gpt','❌\x20Failed\x20t','xample:\x20.g','.gemini\x0a\x0aE','node-fetch','pi/ai/gemi','i.dreaded.','987615sEBELz','result','y\x20again\x20la','3556984FwxrsD','API\x20Error:','AI\x20Command','JiUfC','ikey=gifte','sponse\x20fro','i.giftedte','❌\x20An\x20error','199370HhWsMZ','\x20basic\x20htm','TZPbd','ai/gemini?','u.vip/api/','exports','pro?conten','pt\x20write\x20a','RxLNT','r\x20.gpt\x20or\x20','l\x20code','axios','349326EKlmrn','se\x20try\x20aga','remoteJid','ter.','2hKjaSi','.gemini','vide\x20a\x20que','join','2119701SDlxtb','\x20Error:','ai/gemini-','JkbHH','\x20Please\x20tr','VGJSH','message','extendedTe','60EGMZxz','ch.my.id/a','\x20occurred.','api/gemini','40lsYKyq','mJJuz','get','Cothn','d&q=','60qspcmE','niai?apike','16722JKdcNK','dzydB','i.siputzx.','participan','hatgpt?tex','kIudE','SEzON','onse.\x20Plea','trim'];_0x1117=function(){return _0x5a4b04;};return _0x1117();}const _0x47dd7a=_0x3d25;(function(_0x164d65,_0x39553c){const _0x42cefd=_0x3d25,_0x583c03=_0x164d65();while(!![]){try{const _0x5dc425=parseInt(_0x42cefd(0x160))/(0x1a1e+0x1231*-0x1+-0x7ec)+parseInt(_0x42cefd(0x10e))/(-0x1502+0x14fe+0x6*0x1)*(-parseInt(_0x42cefd(0x112))/(0x2141+0x2522+-0x4660))+-parseInt(_0x42cefd(0x11e))/(-0x2*-0xa4+-0x1447*-0x1+-0x158b)*(-parseInt(_0x42cefd(0x16b))/(0x14fa+-0x51*-0x5+-0x168a))+parseInt(_0x42cefd(0x125))/(-0x30*-0x8d+-0x14b+0x6d*-0x3b)*(-parseInt(_0x42cefd(0x14f))/(-0xc1f*-0x1+0xe7+-0xcff))+parseInt(_0x42cefd(0x163))/(0xe7a+0x3a*-0x47+0x1a4)+parseInt(_0x42cefd(0x10a))/(-0x598*0x1+0x41*0x76+-0x1855*0x1)*(-parseInt(_0x42cefd(0x11a))/(0x1a*-0x11+-0x49*-0x67+0x1*-0x1b9b))+-parseInt(_0x42cefd(0x147))/(-0xd5c+0x815*0x2+-0x2c3)*(-parseInt(_0x42cefd(0x123))/(-0x5*-0x29+0x8a9+-0x96a));if(_0x5dc425===_0x39553c)break;else _0x583c03['push'](_0x583c03['shift']());}catch(_0x1a00e7){_0x583c03['push'](_0x583c03['shift']());}}}(_0x1117,-0xad627+0x6c8e5*-0x3+0x29d7fd));const axios=require(_0x47dd7a(0x109)),fetch=require(_0x47dd7a(0x15d));async function aiCommand(_0x1ffcfc,_0x24473b,_0x126b4d){const _0x34f364=_0x47dd7a,_0x5b541e={'kIudE':_0x34f364(0x151)+_0x34f364(0x110)+_0x34f364(0x130)+_0x34f364(0x107)+_0x34f364(0x15c)+_0x34f364(0x15b)+_0x34f364(0x172)+_0x34f364(0x16c)+_0x34f364(0x108),'mJJuz':_0x34f364(0x151)+_0x34f364(0x110)+_0x34f364(0x130)+_0x34f364(0x107)+_0x34f364(0x10f),'JkbHH':function(_0x15dcca,_0x27c754){return _0x15dcca===_0x27c754;},'JiUfC':_0x34f364(0x159),'EesLx':function(_0x1a6f9e,_0x325860){return _0x1a6f9e(_0x325860);},'RxLNT':_0x34f364(0x131)+_0x34f364(0x168)+_0x34f364(0x13b),'mxTVP':_0x34f364(0x10f),'TtnVq':function(_0x599bed,_0x401071){return _0x599bed(_0x401071);},'eyhQv':function(_0x141280,_0x5121c8){return _0x141280(_0x5121c8);},'Cothn':function(_0x47e006,_0x4de6d4){return _0x47e006(_0x4de6d4);},'TZPbd':function(_0x2ebd59,_0x3bfa72){return _0x2ebd59(_0x3bfa72);},'VGJSH':function(_0x441764,_0x10fe91){return _0x441764(_0x10fe91);},'UkklY':_0x34f364(0x132)+_0x34f364(0x145)+'ed','dzydB':_0x34f364(0x164),'SEzON':_0x34f364(0x15a)+_0x34f364(0x133)+_0x34f364(0x12c)+_0x34f364(0x10b)+_0x34f364(0x146),'NakzJ':_0x34f364(0x165)+_0x34f364(0x113),'BIWNC':_0x34f364(0x16a)+_0x34f364(0x11c)+_0x34f364(0x116)+_0x34f364(0x162)+_0x34f364(0x10d)};try{const _0x27a8c7=_0x126b4d[_0x34f364(0x118)]?.[_0x34f364(0x14a)+'on']||_0x126b4d[_0x34f364(0x118)]?.[_0x34f364(0x119)+_0x34f364(0x149)]?.[_0x34f364(0x156)];if(!_0x27a8c7)return await _0x1ffcfc[_0x34f364(0x134)+'e'](_0x24473b,{'text':_0x5b541e[_0x34f364(0x12a)]});const _0x36eeb2=_0x27a8c7[_0x34f364(0x140)]('\x20'),_0x18b1ca=_0x36eeb2[0x184c+0x561+0x1dad*-0x1][_0x34f364(0x12f)+'e'](),_0x1fa1ad=_0x36eeb2[_0x34f364(0x150)](0x1b12+-0x9eb*0x2+-0x73b*0x1)[_0x34f364(0x111)]('\x20')[_0x34f364(0x12d)]();if(!_0x1fa1ad)return await _0x1ffcfc[_0x34f364(0x134)+'e'](_0x24473b,{'text':_0x5b541e[_0x34f364(0x11f)]});try{await _0x1ffcfc[_0x34f364(0x134)+'e'](_0x24473b,{'react':{'text':'🤖','key':_0x126b4d[_0x34f364(0x155)]}});if(_0x5b541e[_0x34f364(0x115)](_0x18b1ca,_0x5b541e[_0x34f364(0x166)])){const _0x2653f4=await axios[_0x34f364(0x120)](_0x34f364(0x148)+_0x34f364(0x15f)+_0x34f364(0x137)+_0x34f364(0x129)+'t='+_0x5b541e[_0x34f364(0x14b)](encodeURIComponent,_0x1fa1ad));if(_0x2653f4[_0x34f364(0x138)]&&_0x2653f4[_0x34f364(0x138)][_0x34f364(0x142)]&&_0x2653f4[_0x34f364(0x138)][_0x34f364(0x161)]){const _0x338a45=_0x2653f4[_0x34f364(0x138)][_0x34f364(0x161)][_0x34f364(0x14c)];await _0x1ffcfc[_0x34f364(0x134)+'e'](_0x24473b,{'text':_0x338a45},{'quoted':_0x126b4d});}else throw new Error(_0x5b541e[_0x34f364(0x173)]);}else{if(_0x5b541e[_0x34f364(0x115)](_0x18b1ca,_0x5b541e[_0x34f364(0x13e)])){const _0x2774e9=[_0x34f364(0x141)+_0x34f364(0x139)+_0x34f364(0x11d)+_0x34f364(0x153)+_0x5b541e[_0x34f364(0x143)](encodeURIComponent,_0x1fa1ad),_0x34f364(0x148)+_0x34f364(0x127)+_0x34f364(0x13c)+_0x34f364(0x114)+_0x34f364(0x171)+'t='+_0x5b541e[_0x34f364(0x136)](encodeURIComponent,_0x1fa1ad),_0x34f364(0x148)+_0x34f364(0x12e)+_0x34f364(0x16f)+_0x34f364(0x16e)+_0x34f364(0x154)+_0x5b541e[_0x34f364(0x121)](encodeURIComponent,_0x1fa1ad),_0x34f364(0x148)+_0x34f364(0x15f)+_0x34f364(0x152)+_0x34f364(0x13f)+'t='+_0x5b541e[_0x34f364(0x14b)](encodeURIComponent,_0x1fa1ad),_0x34f364(0x148)+_0x34f364(0x169)+_0x34f364(0x11b)+_0x34f364(0x15e)+_0x34f364(0x124)+_0x34f364(0x14e)+'='+_0x5b541e[_0x34f364(0x16d)](encodeURIComponent,_0x1fa1ad),_0x34f364(0x148)+_0x34f364(0x169)+_0x34f364(0x11b)+_0x34f364(0x15e)+_0x34f364(0x157)+_0x34f364(0x167)+_0x34f364(0x122)+_0x5b541e[_0x34f364(0x117)](encodeURIComponent,_0x1fa1ad)];for(const _0x36f490 of _0x2774e9){try{const _0x3b29e7=await _0x5b541e[_0x34f364(0x121)](fetch,_0x36f490),_0x3c98c3=await _0x3b29e7[_0x34f364(0x144)]();if(_0x3c98c3[_0x34f364(0x118)]||_0x3c98c3[_0x34f364(0x138)]||_0x3c98c3[_0x34f364(0x158)]||_0x3c98c3[_0x34f364(0x161)]){const _0x15ce84=_0x3c98c3[_0x34f364(0x118)]||_0x3c98c3[_0x34f364(0x138)]||_0x3c98c3[_0x34f364(0x158)]||_0x3c98c3[_0x34f364(0x161)];await _0x1ffcfc[_0x34f364(0x134)+'e'](_0x24473b,{'text':_0x15ce84},{'quoted':_0x126b4d});return;}}catch(_0x1c02f5){continue;}}throw new Error(_0x5b541e[_0x34f364(0x135)]);}}}catch(_0x3c4a2b){console[_0x34f364(0x13d)](_0x5b541e[_0x34f364(0x126)],_0x3c4a2b),await _0x1ffcfc[_0x34f364(0x134)+'e'](_0x24473b,{'text':_0x5b541e[_0x34f364(0x12b)],'contextInfo':{'mentionedJid':[_0x126b4d[_0x34f364(0x155)][_0x34f364(0x128)+'t']||_0x126b4d[_0x34f364(0x155)][_0x34f364(0x10c)]],'quotedMessage':_0x126b4d[_0x34f364(0x118)]}});}}catch(_0x169961){console[_0x34f364(0x13d)](_0x5b541e[_0x34f364(0x13a)],_0x169961),await _0x1ffcfc[_0x34f364(0x134)+'e'](_0x24473b,{'text':_0x5b541e[_0x34f364(0x14d)],'contextInfo':{'mentionedJid':[_0x126b4d[_0x34f364(0x155)][_0x34f364(0x128)+'t']||_0x126b4d[_0x34f364(0x155)][_0x34f364(0x10c)]],'quotedMessage':_0x126b4d[_0x34f364(0x118)]}});}}module[_0x47dd7a(0x170)]=aiCommand;
+const axios = require('axios');
+const fetch = require('node-fetch');
+
+async function aiCommand(sock, chatId, message) {
+    try {
+        const text = message.message?.conversation || message.message?.extendedTextMessage?.text;
+        
+        if (!text) {
+            return await sock.sendMessage(chatId, { 
+                text: "Please provide a question after .gpt or .gemini\n\nExample: .gpt write a basic html code"
+            });
+        }
+
+        // Get the command and query
+        const parts = text.split(' ');
+        const command = parts[0].toLowerCase();
+        const query = parts.slice(1).join(' ').trim();
+
+        if (!query) {
+            return await sock.sendMessage(chatId, { 
+                text: "Please provide a question after .gpt or .gemini"
+            });
+        }
+
+        try {
+            // Show processing message
+            await sock.sendMessage(chatId, {
+                react: { text: '🤖', key: message.key }
+            });
+
+            if (command === '.ladybugai') {
+                // Call the GPT API
+                const response = await axios.get(`https://api.dreaded.site/api/chatgpt?text=${encodeURIComponent(query)}`);
+                
+                if (response.data && response.data.success && response.data.result) {
+                    const answer = response.data.result.prompt;
+                    await sock.sendMessage(chatId, {
+                        text: answer
+                    }, {
+                        quoted: message
+                    });
+                    
+                } else {
+                    throw new Error('Invalid response from API');
+                }
+            } else if (command === '.ntandoai') {
+                const apis = [
+                    `https://vapis.my.id/api/gemini?q=${encodeURIComponent(query)}`,
+                    `https://api.siputzx.my.id/api/ai/gemini-pro?content=${encodeURIComponent(query)}`,
+                    `https://api.ryzendesu.vip/api/ai/gemini?text=${encodeURIComponent(query)}`,
+                    `https://api.dreaded.site/api/gemini2?text=${encodeURIComponent(query)}`,
+                    `https://api.giftedtech.my.id/api/ai/geminiai?apikey=gifted&q=${encodeURIComponent(query)}`,
+                    `https://api.giftedtech.my.id/api/ai/geminiaipro?apikey=gifted&q=${encodeURIComponent(query)}`
+                ];
+
+                for (const api of apis) {
+                    try {
+                        const response = await fetch(api);
+                        const data = await response.json();
+
+                        if (data.message || data.data || data.answer || data.result) {
+                            const answer = data.message || data.data || data.answer || data.result;
+                            await sock.sendMessage(chatId, {
+                                text: answer
+                            }, {
+                                quoted: message
+                            });
+                            
+                            return;
+                        }
+                    } catch (e) {
+                        continue;
+                    }
+                }
+                throw new Error('All Gemini APIs failed');
+            }
+        } catch (error) {
+            console.error('API Error:', error);
+            await sock.sendMessage(chatId, {
+                text: "❌ Failed to get response. Please try again later.",
+                contextInfo: {
+                    mentionedJid: [message.key.participant || message.key.remoteJid],
+                    quotedMessage: message.message
+                }
+            });
+        }
+    } catch (error) {
+        console.error('AI Command Error:', error);
+        await sock.sendMessage(chatId, {
+            text: "❌ An error occurred. Please try again later.",
+            contextInfo: {
+                mentionedJid: [message.key.participant || message.key.remoteJid],
+                quotedMessage: message.message
+            }
+        });
+    }
+}
+
+module.exports = aiCommand; 
