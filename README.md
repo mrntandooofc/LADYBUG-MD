@@ -9,11 +9,11 @@
 
 Just like Ladybug's mask hides her identity, my heart hides my true feelings for you, Cat Noir - you're the purr-fect hero of my heart.
 
-![KingZord n Mr Ntando](https://files.catbox.moe/eqctpl.jpg)
+![Mr Ntando Ofc](https://i.ibb.co/G45G5dm2/subzero-bot.jpg)
 
 
 <p
-  <img src="https://readme-typing-svg.demolab.com?font=Transformers&size=80&pause=1000&color=0000FF&center=true&width=1000&height=150&lines=𝕷𝕬𝕯𝖄𝕭𝖀𝕲" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Transformers&size=80&pause=1000&color=0000FF&center=true&width=1000&height=150&lines=LADYBUG MD" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@ Just like Ladybug's mask hides her identity, my heart hides my true feelings for
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
+  <img src="https://i.ibb.co/G45G5dm2/subzero-bot.jpg" height="40" width="100%">
 </p>
   <p align="center">
 <a href="https://github.com/GlobalTechInfo/followers"><img title="Followers" src="https://img.shields.io/github/followers/GlobalTechInfo?color=blue&style=flat-square"></a>
