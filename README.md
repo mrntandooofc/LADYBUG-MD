@@ -140,9 +140,9 @@ First star & Fork the repo using the button below!
 - [Mr Ntando ofc (Lightmakerofc)](https://github.com/mrntandooofc)
 
 
-> 𝕷𝕬𝕯𝖄𝕭𝖀𝕲 𝕸𝕯 V2
+> LADYBUG MD 
 - [Ntandoyenkosi Chisaya](https://github.com/mrntandooofc)
-- Creator, founder and Owner Of God 𝕷𝕬𝕯𝖄𝕭𝖀𝕲 𝕸𝕯 1.0.0.
+- Creator, founder and Owner Of LADYBUG MD 
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHdwdnhzcGg0enJ5OHpxZHB3NWRjN3pvODgwOXFpZXd0eTFzZmd4aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/11R5KYi6ZdP8Z2/giphy.gif" alt="Roll Out" width="60%"/>
