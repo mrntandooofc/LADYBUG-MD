@@ -154,7 +154,7 @@ async function startXeonBotInc() {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363401903613460@newsletter',
+                                newsletterJid: '120363418886120432@newsletter',
                                 newsletterName: '𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳',
                                 serverMessageId: -1
                             }
@@ -242,7 +242,49 @@ async function startXeonBotInc() {
             // Send message to bot's own number
             const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
             await XeonBotInc.sendMessage(botNumber, { 
-                text: `🤖𝙻𝙰𝙳𝚈𝙱𝚄𝙶 𝙼𝙳 𝙱𝙾𝚃  Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!\n🤍ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ɴᴛᴀɴᴅᴏ ᴏғᴄ 🇿🇼
+                text: `🤖 *ʟᴀᴅʏʙᴜɢ-ᴍᴅ* Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!\n\n* *----------------------------------------
+> ⚙️ *LADYBUG SETTINGS*⚙️ 
+-----------------------------------------
+ 
+🔧 *1. Mode*
+   - Current Status: public
+   - Usage: .mode private/public
+
+🎯 *2. Auto Status View*
+   - Current Status: false
+   - Usage: .autotyping on/off
+
+🌐 *3. Always Online*
+   - Current Status: true
+   - Usage: .alwaysonline 
+
+🚫 *4. Anti Bad Word*
+   - Current Status: off
+   - Usage: .antibad on/off
+
+ 🗑️ *5. Anti Delete*
+   - Current Status: off
+   - Usage: .antidelete on/off
+
+
+❤️ *6. Auto React*
+   - Current Status: false
+   - Usage: .autoreact on/off
+
+
+🔗 *7. Anti Link*
+   - Current Status: false
+   - Usage: .antilink on/off
+
+♻️ *8. Clear Session*
+  -Current status: false
+  -Usage: .clearsession 
+
+☢️ *9. Clear Tmp*
+  -Current Status: false 
+  -Usage: .cleartmp
+
+*📌Note* : *Replace on/of with the desired state to enable or disable a feature.*\n\n
                 \n✅Make sure to join below channel`,
                 contextInfo: {
                     forwardingScore: 1,

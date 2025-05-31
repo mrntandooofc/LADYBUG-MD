@@ -14,7 +14,8 @@ const { addWelcome, delWelcome, isWelcomeOn, addGoodbye, delGoodBye, isGoodByeOn
 // Command imports
 const tagAllCommand = require('./commands/tagall');
 const helpCommand = require('./commands/help');
-const menuCommand = require('./commands/downloadmenu');
+const menuCommand = require('./commands/menu');
+const newmenuCommand = require('./commands/newmenu');
 const banCommand = require('./commands/ban');
 const { promoteCommand } = require('./commands/promote');
 const { demoteCommand } = require('./commands/demote');
@@ -51,6 +52,7 @@ const { dareCommand } = require('./commands/dare');
 const { truthCommand } = require('./commands/truth');
 const { clearCommand } = require('./commands/clear');
 const pingCommand = require('./commands/ping');
+const ping2Command = require('./commands/ping2');
 const aliveCommand = require('./commands/alive');
 const blurCommand = require('./commands/img-blur');
 const welcomeCommand = require('./commands/welcome');
@@ -87,19 +89,27 @@ const facebookCommand = require('./commands/facebook');
 const playCommand = require('./commands/play');
 const play2Command = require('./commands/play2');
 const play3Command = require('./commands/play3');
+const play4Command = require('./commands/play4');
 const tiktokCommand = require('./commands/tiktok');
+const tiktok2Command = require('./commands/tiktok2');
+const tiktok3Command = require('./commands/tiktok3');
 const songCommand = require('./commands/song');
 const aiCommand = require('./commands/ai');
 const { handleTranslateCommand } = require('./commands/translate');
 const { handleSsCommand } = require('./commands/ss');
 const { addCommandReaction, handleAreactCommand } = require('./lib/reactions');
-
+const { goodnightCommand } = require('./commands/goodnight');
+const { shayariCommand } = require('./commands/shayari');
+const { rosedayCommand } = require('./commands/roseday');
+const imagineCommand = require('./commands/imagine');
+const imagine2Command = require('./commands/imagine2');
+const imagine3Command = require('./commands/imagine3');
 
 // Global settings
 global.packname = settings.packname;
 global.author = settings.author;
-global.channelLink = "https://whatsapp.com/channel/0029Va90zAnIHphOuO8Msp3A";
-global.ytch = "Mr Nt8ndo Ofc";
+global.channelLink = "https://whatsapp.com/channel/0029VbAhndjKLaHneeiTAy3J";
+global.ytch = "Mr Ntando Ofc";
 
 // Add this near the top of main.js with other global configurations
 const channelInfo = {
@@ -108,7 +118,7 @@ const channelInfo = {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363401903613460@newsletter',
-            newsletterName: 'LADYBUG MD',
+            newsletterName: 'LADYBUG MD🚀|by Mr Ntando',
             serverMessageId: -1
         }
     }
@@ -196,11 +206,11 @@ async function handleMessages(sock, messageUpdate, printLog) {
         }
 
         // List of admin commands
-        const adminCommands = ['.mute', '.unmute',  '.promote', '.demote', '.kick', '.tagall', '.antilink'];
+        const adminCommands = ['.mute', '.unmute', '.promote', '.demote', '.kick', '.tagall', '.antilink'];
         const isAdminCommand = adminCommands.some(cmd => userMessage.startsWith(cmd));
 
         // List of owner commands
-        const ownerCommands = ['.mode', '.autostatus', '.antidelete', '.cleartmp', '.setpp', '.clearsession', '.areact', '.autoreact', '.play2', '.play3', '.ban', '.unban', '.owner', '.menu', '.arise ladybug', '.vv', '.chatbot', '.facebook', '.instagram', '.tiktok', '.repo', '.mrntando'];
+        const ownerCommands = ['.mode', '.autostatus', '.antidelete', '.cleartmp', '.setpp', '.clearsession', '.areact', '.ban', '.unban', '.pair',  '.github', '.ping', '.alive', '.autoreact'];
         const isOwnerCommand = ownerCommands.some(cmd => userMessage.startsWith(cmd));
 
         let isSenderAdmin = false;
@@ -289,14 +299,17 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage.startsWith('.unban'):
                 await unbanCommand(sock, chatId, message);
                 break;
-            case userMessage === '.arise ladybug' || userMessage === '.menu' || userMessage === '.bot' || userMessage === '.help':
+            case userMessage === '.help' || userMessage === '.allmenu' || userMessage === '.list':
                 await helpCommand(sock, chatId, global.channelLink);
                 break;
+            case userMessage === '.support' || userMessage === '.mrntando' || userMessage === '.ladybuginc':
+                await menuCommand(sock, chatId, global.channelLink);
+                break;
+            case userMessage === '.s' || userMessage === '.st' || userMessage === '.us':
+                await newmenuCommand(sock, chatId, global.channelLink);
+                break;    
             case userMessage === '.sticker' || userMessage === '.s':
                 await stickerCommand(sock, chatId, message);
-                break;
-            case userMessage === '.downloadmenu' || userMessage === '.1':
-                await downloadmenuCommamd(sock, chatId, global.channelLink);
                 break;
             case userMessage.startsWith('.warnings'):
                 const mentionedJidListWarnings = message.message.extendedTextMessage?.contextInfo?.mentionedJid || [];
@@ -498,8 +511,11 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 const mentionedJidListDemote = message.message.extendedTextMessage?.contextInfo?.mentionedJid || [];
                 await demoteCommand(sock, chatId, mentionedJidListDemote, message);
                 break;
-            case userMessage === '.ping':
+            case userMessage === '.status' || userMessage === '.about' || userMessage === '.ladybug':
                 await pingCommand(sock, chatId);
+                break;
+            case userMessage === '.ping2':
+                await ping2Command(sock, chatId);
                 break;
             case userMessage === '.alive':
                 await aliveCommand(sock, chatId);
@@ -542,8 +558,8 @@ async function handleMessages(sock, messageUpdate, printLog) {
                     await sock.sendMessage(chatId, { text: 'This command can only be used in groups.', ...channelInfo });
                 }
                 break;
-            case userMessage === '.mrntando':
-            case userMessage === '.ofc':
+            case userMessage === '.git':
+            case userMessage === '.github':
             case userMessage === '.sc':
             case userMessage === '.script':
             case userMessage === '.repo':
@@ -640,6 +656,10 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 const autoStatusArgs = userMessage.split(' ').slice(1);
                 await autoStatusCommand(sock, chatId, message, autoStatusArgs);
                 break;
+            case userMessage.startsWith('.autotyping'):
+                const autoTypingArgs = userMessage.split(' ').slice(1);
+                await autoTypingCommand(sock, chatId, message, autotypingArgs);
+                break;
             case userMessage.startsWith('.simp'):
                 await simpCommand(sock, chatId, message);
                 break;
@@ -716,7 +736,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage === '.setpp':
                 await setProfilePicture(sock, chatId, message);
                 break;
-            case userMessage.startsWith('.instagram') || userMessage.startsWith('.igdl') || userMessage.startsWith('.ig'):
+            case userMessage.startsWith('.instagram') || userMessage.startsWith('.insta') || userMessage.startsWith('.ig'):
                 await instagramCommand(sock, chatId, message);
                 break;
             case userMessage.startsWith('.fb') || userMessage.startsWith('.facebook'):
@@ -725,7 +745,10 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage.startsWith('.song') || userMessage.startsWith('.music'):
                 await playCommand(sock, chatId, message);
                 break;
-            case userMessage.startsWith('.play') || userMessage.startsWith('.mp3') || userMessage.startsWith('.ytmp3') || userMessage.startsWith('.yts'):
+            case userMessage.startsWith('.song2') || userMessage.startsWith('.music2'):
+                await playCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.play'):
                 await songCommand(sock, chatId, message);
                 break;
             case userMessage.startsWith('.play2'):
@@ -734,10 +757,19 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage.startsWith('.play3'):
                 await play3Command(sock, chatId, message);
                 break;
+            case userMessage.startsWith('.play4'):
+                await play3Command(sock, chatId, message);
+                break;  
             case userMessage.startsWith('.tiktok') || userMessage.startsWith('.tt'):
                 await tiktokCommand(sock, chatId, message);
                 break;
-            case userMessage.startsWith('.ladybugai') || userMessage.startsWith('.ntandoai'):
+            case userMessage.startsWith('.tiktok2') || userMessage.startsWith('.tt2'):
+                await tiktok2Command(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.tiktok3') || userMessage.startsWith('.tt3'):
+                await tiktokCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.gpt') || userMessage.startsWith('.gemini'):
                 await aiCommand(sock, chatId, message);
                 break;
             case userMessage.startsWith('.translate') || userMessage.startsWith('.trt'):
@@ -751,6 +783,24 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage.startsWith('.areact') || userMessage.startsWith('.autoreact') || userMessage.startsWith('.autoreaction'):
                 const isOwner = message.key.fromMe;
                 await handleAreactCommand(sock, chatId, message, isOwner);
+                break;
+            case userMessage === '.goodnight' || userMessage === '.lovenight' || userMessage === '.gn':
+                await goodnightCommand(sock, chatId);
+                break;
+            case userMessage === '.shayari' || userMessage === '.shayri':
+                await shayariCommand(sock, chatId);
+                break;
+            case userMessage === '.roseday':
+                await rosedayCommand(sock, chatId);
+                break;
+            case userMessage.startsWith('.imagine') || userMessage.startsWith('.flux'):
+                await imagineCommand(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.vision') || userMessage.startsWith('.dalle'):
+                await imagine2Command(sock, chatId, message);
+                break;
+            case userMessage.startsWith('.image') || userMessage.startsWith('.img'):
+                await imagine2Command(sock, chatId, message);
                 break;
             default:
                 if (isGroup) {
