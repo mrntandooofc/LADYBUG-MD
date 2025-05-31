@@ -1,22 +1,16 @@
 async function githubCommand(sock, chatId) {
-    const repoInfo = `*🤖 𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳*
+    const repoInfo = `*🟢ＬＡＤＹＢＵＧ－ＭＤ ＳＣＲＩＰＴ🟢*
+    
+*📂 ʀᴇᴘᴏꜱɪᴛᴏʀʏ:* *ʟᴀᴅʏʙᴜɢ-ᴍᴅ* 
+*👤 ᴅᴇᴠᴇʟᴏᴘᴇʀ:* *ᴍʀɴᴛᴀɴᴅᴏᴏᴏꜰᴄ*
+*🔗 ᴜʀʟ:* https://github.com/mrntandooofc/LADYBUG-MD
 
-*📂 GitHub Repository:*
-https://github.com/mrntandooofc/LADYBUG-MD
+*ꜱᴛᴀᴛᴜꜱ:* *ʟᴀᴅʏʙᴜɢ ɪꜱ ᴏɴʟɪɴᴇ😎*
 
-*📢 Official Channel:*
-https://whatsapp.com/channel/0029Vb0zLt3F1YlP2y4zLM0r
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ɴᴛᴀɴᴅᴏ ᴏꜰᴄ (🇿🇼)*
 
-*🤖 Official channel 2:*
-https://whatsapp.com/channel/0029Vb4yAGGIHphBnp4jaj2A
-
-*⚡ Official Group:*
-https://chat.whatsapp.com/BLg5tQ6drXg6kFjTrZE1th
-
-*👑 Support:*
-+263771629199
-
-*Made with 🤍 by Mr Ntando ofc*
+*📥 ᴅᴏᴡɴʟᴏᴀᴅ:*
+▸ ZIP Download(https://github.com/mrntandooofc/LADYBUG-MD/archive/refs/heads/main.zip)
 
 
 _Star ⭐ the repository if you like the bot!_`;
@@ -28,8 +22,8 @@ _Star ⭐ the repository if you like the bot!_`;
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363401903613460@newsletter',
-                    newsletterName: '𝙻𝙰𝙳𝚈𝙱𝚄𝙶-𝙼𝙳',
+                    newsletterJid: '120363418886120432@newsletter',
+                    newsletterName: 'LADYBUG MD🚀|by Mr Ntando Ofc😎',
                     serverMessageId: -1
                 }
             }

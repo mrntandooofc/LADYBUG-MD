@@ -1,14 +1,23 @@
-const truths = [
-    "What's your biggest fear?",
-    "What was your most embarrassing moment?",
-    "If you could be invisible for a day, what would you do?",
-    "Who was your first crush?",
-    "What’s one thing you’ve never told anyone?"
-];
+const fetch = require('node-fetch');
 
 async function truthCommand(sock, chatId) {
-    const randomTruth = truths[Math.floor(Math.random() * truths.length)];
-    await sock.sendMessage(chatId, { text: `🔮 Truth: ${randomTruth}` });
+    try {
+        const shizokeys = 'knightbot';
+        const res = await fetch(`https://api.shizo.top/api/quote/truth?apikey=${shizokeys}`);
+        
+        if (!res.ok) {
+            throw await res.text();
+        }
+        
+        const json = await res.json();
+        const truthMessage = json.result;
+
+        // Send the truth message
+        await sock.sendMessage(chatId, { text: truthMessage });
+    } catch (error) {
+        console.error('Error in truth command:', error);
+        await sock.sendMessage(chatId, { text: '❌ Failed to get truth. Please try again later!' });
+    }
 }
 
 module.exports = { truthCommand };
