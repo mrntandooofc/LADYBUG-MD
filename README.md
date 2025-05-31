@@ -7,7 +7,7 @@
 
 # LADYBUG MD BOT
 
-Just like Ladybug's mask hides her identity, my heart hides my true feelings for you, Cat Noir - you're the purr-fect hero of my heart.
+Just like Ladybug's mask hides her identity, my heart hides my true feelings for you, Mr Ntando ofc- you're the purr-fect hero of my heart.
 
 ![Mr Ntando Ofc](https://i.ibb.co/G45G5dm2/subzero-bot.jpg)
 
