@@ -27,10 +27,10 @@ Just like Ladybug's mask hides her identity, my heart hides my true feelings for
 <a href="https://github.com/GlobalTechInfo/followers"><img title="Followers" src="https://img.shields.io/github/followers/GlobalTechInfo?color=blue&style=flat-square"></a>
 
 <p align="center">
-  <a href="https://github.com/mrntandooofc/Ladybug-MD"><img title="Developer" src="https://img.shields.io/badge/Author-mrntandooofc-00FFFF.svg?style=for-the-badge&logo=github" />
+  <a href="https://github.com/mrntandooofc/LADYBUG-MD"><img title="Developer" src="https://img.shields.io/badge/Author-mrntandooofc-00FFFF.svg?style=for-the-badge&logo=github" />
   </a>
 </
-<p align="center"><img src="https://profile-counter.glitch.me/{𝕷𝕬𝕯𝖄𝕭𝖀𝕲 𝕸𝕯 1.0.0}/count.svg" alt="efkidgamerdev :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{LADYBUG 3.7.0}/count.svg" alt="efkidgamerdev :: Visitor's Count" /></p>
 
 
 
