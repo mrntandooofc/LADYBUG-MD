@@ -210,7 +210,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
         const isAdminCommand = adminCommands.some(cmd => userMessage.startsWith(cmd));
 
         // List of owner commands
-        const ownerCommands = ['.mode', '.autostatus', '.antidelete', '.cleartmp', '.setpp', '.clearsession', '.areact', '.ban', '.unban', '.pair',  '.github', '.ping', '.alive', '.autoreact'];
+        const ownerCommands = ['.mode', '.autostatus', '.antidelete', '.cleartmp', '.setpp', '.clearsession', '.areact', '.ban', '.unban', '.pair',  '.github', '.ping',  '.autoreact'];
         const isOwnerCommand = ownerCommands.some(cmd => userMessage.startsWith(cmd));
 
         let isSenderAdmin = false;
@@ -299,7 +299,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage.startsWith('.unban'):
                 await unbanCommand(sock, chatId, message);
                 break;
-            case userMessage === '.help' || userMessage === '.allmenu' || userMessage === '.list':
+            case userMessage === '.help' || userMessage === '.allmenu' || userMessage === '.menu':
                 await helpCommand(sock, chatId, global.channelLink);
                 break;
             case userMessage === '.support' || userMessage === '.mrntando' || userMessage === '.ladybuginc':
